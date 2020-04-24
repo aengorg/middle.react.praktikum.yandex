@@ -1,4 +1,29 @@
 .App {
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 25vw;
+  height: 100vh;
+  background-color: var(--nord6);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.content {
+  width: calc(100vw - 25vw);
+  height: 100vh;
+  background-color: var(--nord6);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

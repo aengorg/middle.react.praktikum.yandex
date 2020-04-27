@@ -1,5 +1,5 @@
 import React from 'react';
-import './DateSeparator.css';
+import './DateSeparator.scss';
 
 import { formatDateTextRU } from '../../../utils/format';
 
@@ -12,7 +12,7 @@ export const DateSeparator = ({ date }: IProps) => {
 
   return (
     <div className='date'>
-      <span>{formattedDate}</span>
+      <span className='date__text'>{formattedDate}</span>
     </div>
   );
 };

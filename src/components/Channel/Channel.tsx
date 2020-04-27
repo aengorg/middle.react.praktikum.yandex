@@ -1,5 +1,5 @@
 import React from 'react';
-import './Channel.css';
+import './Channel.scss';
 
 import { TChannelId, IChannel } from './types';
 import { formatDateRU } from '../../utils/format';
@@ -25,18 +25,18 @@ export const Channel = ({
     formattedDate = formatDateRU(lastMessage.date);
   }
 
-  const classes: string = `channel ${isSelected ? 'channel--active' : ''}`;
+  const classes: string = isSelected ? 'channel--active' : '';
 
   return (
-    <div className={classes} onClick={() => onChannelChange(id)}>
+    <div className={`channel ${classes}`} onClick={() => onChannelChange(id)}>
       <Avatar className='channel__avatar' avatar={avatar} title={title} />
-      <div className='channel-body'>
-        <div className='channel-top'>
+      <div className='channel__body'>
+        <div className='channel__header'>
           <span className='channel__title'>{title}</span>
           <span className='channel__date'>{formattedDate}</span>
         </div>
         {lastMessage ? (
-          <div className='channel-bottom'>
+          <div className='channel__footer'>
             <span className='channel__user-name'>{lastMessage.userName}</span>
             {` : `}
             <span className='channel__message'>{lastMessage.text}</span>

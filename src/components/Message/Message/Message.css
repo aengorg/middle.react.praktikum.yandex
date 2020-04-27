@@ -1,0 +1,32 @@
+.message {
+  display: flex;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: var(--nord6);
+  border-radius: 4px;
+}
+
+.message-avatar {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.message-body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.message-user-name {
+  font-size: 1.3rem;
+}
+
+.message-time {
+  display: inline-block;
+  color: var(--nord3);
+  font-size: 1rem;
+  text-align: right;
+  width: 100%;
+}

@@ -9,7 +9,7 @@ import { Channel } from '../Channel/Channel';
 interface IProps {
   activeChannelId: TChannelId;
   channelsList: TChannelsList;
-  onChannelChange: any;
+  onChannelChange(TChannelId: TChannelId): void;
 }
 
 // component
@@ -23,9 +23,9 @@ export const ChannelList = ({ activeChannelId, channelsList, onChannelChange }: 
     <div className='channel-list'>
       {sortedChannelsList.map((channel: IChannel) => (
         <Channel
+          {...channel}
           key={channel.id}
-          channel={channel}
-          activeChannelId={activeChannelId}
+          isSelected={activeChannelId === channel.id}
           onChannelChange={onChannelChange}
         />
       ))}

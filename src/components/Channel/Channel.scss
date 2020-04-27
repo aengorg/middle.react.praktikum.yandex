@@ -1,0 +1,61 @@
+.channel {
+  display: flex;
+  justify-content: start;
+  height: 90px;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--nord4);
+
+  &__avatar {
+    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    flex-basis: 70px;
+    margin-right: 10px;
+  }
+
+  &__body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__footer {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  &__title {
+    font-size: 1.3rem;
+  }
+
+  &__user-name {
+    font-size: 1.2rem;
+    color: var(--nord10);
+  }
+
+  &__message {
+    font-size: 1rem;
+  }
+
+  &__date {
+    font-size: 1rem;
+    color: var(--nord3);
+  }
+
+  &--active {
+    background-color: var(--nord4);
+  }
+}
+
+.channel:hover {
+  background-color: var(--nord6);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './MessageList.css';
+import './MessageList.scss';
 
 import genKey from '../../utils/generation';
 import { IMessage } from '../Message/Message/types';
@@ -9,6 +9,7 @@ import { DateSeparator } from '../Message/DateSeparator/DateSeparator';
 
 // types
 interface IProps {
+  className: string;
   messagesList: TMessagesList;
 }
 
@@ -22,9 +23,9 @@ const renderDate = (date: number) => {
   }
 };
 
-export const MessageList = ({ messagesList }: IProps) => {
+export const MessageList = ({ className, messagesList }: IProps) => {
   return (
-    <div className='message-list'>
+    <div className={className + ' message-list'}>
       {messagesList.map((message: IMessage) => (
         <React.Fragment key={genKey()}>
           {renderDate(message.message.date)}

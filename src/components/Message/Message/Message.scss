@@ -1,0 +1,33 @@
+.message {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+
+  &__avatar {
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+
+  &__body {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  &__user-name {
+    font-size: 1.3rem;
+  }
+
+  &__time {
+    display: inline-block;
+    color: var(--nord3);
+    font-size: 1rem;
+    text-align: right;
+    width: 100%;
+  }
+}
+
+.message:hover {
+  background-color: var(--nord6);
+  outline: 1px solid var(--nord4);
+}

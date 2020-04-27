@@ -1,43 +1,47 @@
 .channel {
   display: flex;
-  padding: 10px;
   height: 90px;
-  overflow: hidden;
+  padding: 10px;
   cursor: pointer;
-  border-bottom: 1px solid var(--nord3);
+  border-bottom: 1px solid var(--nord4);
 }
 
 .channel:hover {
   background-color: var(--nord4);
 }
 
+.channel--active {
+  background-color: var(--nord4);
+}
+
 .channel-body {
   width: 100%;
-  display: flex;
   overflow: hidden;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .channel-top {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .channel-bottom {
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
 .channel__avatar {
-  width: 70px;
-  height: 70px;
   margin-right: 10px;
 }
 
 .channel__title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .channel__user-name {
@@ -50,7 +54,6 @@
 }
 
 .channel__date {
-  float: right;
   font-size: 1rem;
   color: var(--nord3);
 }

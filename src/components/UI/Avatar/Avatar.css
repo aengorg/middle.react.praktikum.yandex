@@ -1,3 +1,6 @@
 .avatar {
-  border-radius: 5px;
+  width: 70px;
+  background-color: var(--nord4);
+  border: 1px solid var(--nord6);
+  border-radius: 4px;
 }

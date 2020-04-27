@@ -1,12 +1,12 @@
 import React from 'react';
 import './Avatar.css';
 
-export default (props : any) => {
-  return (
-    <img
-      className={props.className + ' avatar'}
-      src={props.channel.avatar}
-      alt={props.channel.title}
-    />
-  );
+interface Props {
+  className: string;
+  avatar: string;
+  title: string;
 }
+
+export const Avatar = ({ className, avatar, title }: Props) => {
+  return <img className={className + ' avatar'} src={avatar} alt={title} />;
+};

@@ -1,1410 +1,1802 @@
 [
   {
-    "messageDate": 1515735314570,
-    "messageId": "19028",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735320570,
-    "messageId": "4113",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735326570,
-    "messageId": "12322",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735332570,
-    "messageId": "20266",
-    "userAvatar": "https://i.pravatar.cc/70?img=4",
-    "userId": "4",
-    "userName": "strazhnikovaaa ",
-    "messageText": "++"
-  },
-  {
-    "messageDate": 1515735338570,
-    "messageId": "15599",
-    "userAvatar": "https://i.pravatar.cc/70?img=5",
-    "userId": "5",
-    "userName": "Александр Пухов ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735344570,
-    "messageId": "17672",
-    "userAvatar": "https://i.pravatar.cc/70?img=6",
-    "userId": "6",
-    "userName": "Lora But ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735350570,
-    "messageId": "20403",
-    "userAvatar": "https://i.pravatar.cc/70?img=7",
-    "userId": "7",
-    "userName": "Vadim ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735356570,
-    "messageId": "23414",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735362570,
-    "messageId": "29985",
-    "userAvatar": "https://i.pravatar.cc/70?img=9",
-    "userId": "9",
-    "userName": "Sazonov Dmitry",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735368570,
-    "messageId": "12098",
-    "userAvatar": "https://i.pravatar.cc/70?img=10",
-    "userId": "10",
-    "userName": "shydl",
-    "messageText": "все супер )"
-  },
-  {
-    "messageDate": 1515735374570,
-    "messageId": "29335",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "Q: с чем связанно что весь toolинг для JS стека был создан с нуля, игнорируя все, что было сделано до этого?"
-  },
-  {
-    "messageDate": 1515735380570,
-    "messageId": "3281",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "-1"
-  },
-  {
-    "messageDate": 1515735386570,
-    "messageId": "12715",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "-1"
-  },
-  {
-    "messageDate": 1515735392570,
-    "messageId": "8936",
-    "userAvatar": "https://i.pravatar.cc/70?img=7",
-    "userId": "7",
-    "userName": "Vadim ",
-    "messageText": "2/10"
-  },
-  {
-    "messageDate": 1515735398570,
-    "messageId": "32565",
-    "userAvatar": "https://i.pravatar.cc/70?img=9",
-    "userId": "9",
-    "userName": "Sazonov Dmitry",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515735404570,
-    "messageId": "16887",
-    "userAvatar": "https://i.pravatar.cc/70?img=6",
-    "userId": "6",
-    "userName": "Lora But ",
-    "messageText": "-2"
-  },
-  {
-    "messageDate": 1515735410570,
-    "messageId": "15176",
-    "userAvatar": "https://i.pravatar.cc/70?img=12",
-    "userId": "12",
-    "userName": "maksim.zinyakov",
-    "messageText": "0"
-  },
-  {
-    "messageDate": 1515735416570,
-    "messageId": "26900",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "4/10"
-  },
-  {
-    "messageDate": 1515735422570,
-    "messageId": "2983",
-    "userAvatar": "https://i.pravatar.cc/70?img=10",
-    "userId": "10",
-    "userName": "shydl",
-    "messageText": "небольшой "
-  },
-  {
-    "messageDate": 1515735428570,
-    "messageId": "29607",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Pavel",
-    "messageText": "запускал разок, коннектился к кафке"
-  },
-  {
-    "messageDate": 1515735434570,
-    "messageId": "16751",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "npm"
-  },
-  {
-    "messageDate": 1515735440570,
-    "messageId": "20107",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "5/10"
-  },
-  {
-    "messageDate": 1515735446570,
-    "messageId": "19993",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "3/10"
-  },
-  {
-    "messageDate": 1515735452570,
-    "messageId": "13690",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "build subsistem, etc"
-  },
-  {
-    "messageDate": 1515735458570,
-    "messageId": "23497",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "был make,maven,.gradle etc..."
-  },
-  {
-    "messageDate": 1515735464570,
-    "messageId": "25963",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "из Джавы что ли пришли?)"
-  },
-  {
-    "messageDate": 1515735470570,
-    "messageId": "14039",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "Из питона"
-  },
-  {
-    "messageDate": 1515735476570,
-    "messageId": "8389",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "))"
-  },
-  {
-    "messageDate": 1515735482570,
-    "messageId": "24341",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "спасибо"
-  },
-  {
-    "messageDate": 1515735488570,
-    "messageId": "8602",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "а нода на чем написана?"
-  },
-  {
-    "messageDate": 1515735494570,
-    "messageId": "31766",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "сходить на гит и посмотреть)"
-  },
-  {
-    "messageDate": 1515735500570,
-    "messageId": "29083",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "Владимир, тоже верно"
-  },
-  {
-    "messageDate": 1515735506570,
-    "messageId": "20814",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "gcc and g++"
-  },
-  {
-    "messageDate": 1515735512570,
-    "messageId": "20257",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "C :)"
-  },
-  {
-    "messageDate": 1515735518570,
-    "messageId": "24150",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Где типы!! :-)"
-  },
-  {
-    "messageDate": 1515735524570,
-    "messageId": "12557",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "++)"
-  },
-  {
-    "messageDate": 1515735530570,
-    "messageId": "7246",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Нет разбиения на классы/модули"
-  },
-  {
-    "messageDate": 1515735536570,
-    "messageId": "16735",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Если по аналогии с Java/C#"
-  },
-  {
-    "messageDate": 1515735542570,
-    "messageId": "3250",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "Фреймворка нет, в скриптовых языках тут все было бы в анотациях"
-  },
-  {
-    "messageDate": 1515735548570,
-    "messageId": "17885",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "ну колбэки"
-  },
-  {
-    "messageDate": 1515735554570,
-    "messageId": "9768",
-    "userAvatar": "https://i.pravatar.cc/70?img=12",
-    "userId": "12",
-    "userName": "maksim.zinyakov",
-    "messageText": "стрелочные функции"
-  },
-  {
-    "messageDate": 1515735560570,
-    "messageId": "29497",
-    "userAvatar": "https://i.pravatar.cc/70?img=6",
-    "userId": "6",
-    "userName": "Lora But ",
-    "messageText": "промис"
-  },
-  {
-    "messageDate": 1515735566570,
-    "messageId": "25902",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "ES6"
-  },
-  {
-    "messageDate": 1515735572570,
-    "messageId": "7414",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "const , =>"
-  },
-  {
-    "messageDate": 1515735578570,
-    "messageId": "21802",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "Не используются ;"
-  },
-  {
-    "messageDate": 1515735584570,
-    "messageId": "31310",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735590570,
-    "messageId": "27324",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735596570,
-    "messageId": "20082",
-    "userAvatar": "https://i.pravatar.cc/70?img=6",
-    "userId": "6",
-    "userName": "Lora But ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735602570,
-    "messageId": "27571",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735608570,
-    "messageId": "8302",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735614570,
-    "messageId": "4021",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "никогда не понимал зачем нужен REPL"
-  },
-  {
-    "messageDate": 1515735620570,
-    "messageId": "6055",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "ну состояние нахождение в среде... когда через cmd сидишь "
-  },
-  {
-    "messageDate": 1515735626570,
-    "messageId": "20154",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "а как эвент-луп без него делать?"
-  },
-  {
-    "messageDate": 1515735632570,
-    "messageId": "29675",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "WebStorm debug из коробки"
-  },
-  {
-    "messageDate": 1515735638570,
-    "messageId": "11710",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "есть полезная штука NVM"
-  },
-  {
-    "messageDate": 1515735644570,
-    "messageId": "3907",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "запрос на сервер"
-  },
-  {
-    "messageDate": 1515735650570,
-    "messageId": "17194",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "успешно выполнить внутренности фигурных скобок?"
-  },
-  {
-    "messageDate": 1515735656570,
-    "messageId": "18299",
-    "userAvatar": "https://i.pravatar.cc/70?img=5",
-    "userId": "5",
-    "userName": "Александр Пухов ",
-    "messageText": "на порт 8001 стукануться)"
-  },
-  {
-    "messageDate": 1515735662570,
-    "messageId": "7497",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "дождаться завершение создания сервера"
-  },
-  {
-    "messageDate": 1515735668570,
-    "messageId": "25177",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "http://localhost:8081"
-  },
-  {
-    "messageDate": 1515735674570,
-    "messageId": "3699",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "icon"
-  },
-  {
-    "messageDate": 1515735680570,
-    "messageId": "30007",
-    "userAvatar": "https://i.pravatar.cc/70?img=12",
-    "userId": "12",
-    "userName": "maksim.zinyakov",
-    "messageText": "корс"
-  },
-  {
-    "messageDate": 1515735686570,
-    "messageId": "14963",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Ilya Sarantsev",
-    "messageText": "Давайте посмотрим req"
-  },
-  {
-    "messageDate": 1515735692570,
-    "messageId": "19198",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "за фавиконом и стилями?"
-  },
-  {
-    "messageDate": 1515735698570,
-    "messageId": "17588",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Pavel",
-    "messageText": "что за фавикон?"
-  },
-  {
-    "messageDate": 1515735704570,
-    "messageId": "30789",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "иконка для таба"
-  },
-  {
-    "messageDate": 1515735710570,
-    "messageId": "29395",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "иконка сайта, которая нв вкладке"
-  },
-  {
-    "messageDate": 1515735716570,
-    "messageId": "21495",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Pavel",
-    "messageText": "спасибо"
-  },
-  {
-    "messageDate": 1515735722570,
-    "messageId": "19273",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "$ echo console.log('test') | node"
-  },
-  {
-    "messageDate": 1515735728570,
-    "messageId": "5653",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "понял, спасибо"
-  },
-  {
-    "messageDate": 1515735734570,
-    "messageId": "3098",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "репл это как низкоуровневая среда работы с нодой, и понятное дело есть навароты"
-  },
-  {
-    "messageDate": 1515735740570,
-    "messageId": "31244",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "на сервере тоже single thread + event loop?"
-  },
-  {
-    "messageDate": 1515735746570,
-    "messageId": "28170",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "да, но немного другой + вместо воркеров есть треды"
-  },
-  {
-    "messageDate": 1515735752570,
-    "messageId": "8466",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "зип"
-  },
-  {
-    "messageDate": 1515735758570,
-    "messageId": "30743",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "postmortem metadata 0.o"
-  },
-  {
-    "messageDate": 1515735764570,
-    "messageId": "5195",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Ilya Sarantsev",
-    "messageText": "А uv - это кажется как раз ивент луп?"
-  },
-  {
-    "messageDate": 1515735770570,
-    "messageId": "11142",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "brotli"
-  },
-  {
-    "messageDate": 1515735776570,
-    "messageId": "10734",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "openssl"
-  },
-  {
-    "messageDate": 1515735782570,
-    "messageId": "11779",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "скачать исходник, изменить, скомпилить - профит)"
-  },
-  {
-    "messageDate": 1515735788570,
-    "messageId": "9158",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "0"
-  },
-  {
-    "messageDate": 1515735794570,
-    "messageId": "25340",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "5.1 есть"
-  },
-  {
-    "messageDate": 1515735800570,
-    "messageId": "21960",
-    "userAvatar": "https://i.pravatar.cc/70?img=9",
-    "userId": "9",
-    "userName": "Sazonov Dmitry",
-    "messageText": "10.16.0"
-  },
-  {
-    "messageDate": 1515735806570,
-    "messageId": "15003",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "$ node --version"
-  },
-  {
-    "messageDate": 1515735812570,
-    "messageId": "24970",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "13.12.0"
-  },
-  {
-    "messageDate": 1515735818570,
-    "messageId": "4587",
-    "userAvatar": "https://i.pravatar.cc/70?img=4",
-    "userId": "4",
-    "userName": "strazhnikovaaa ",
-    "messageText": "10.16.3"
-  },
-  {
-    "messageDate": 1515735824570,
-    "messageId": "17946",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "node --version"
-  },
-  {
-    "messageDate": 1515735830570,
-    "messageId": "20850",
-    "userAvatar": "https://i.pravatar.cc/70?img=6",
-    "userId": "6",
-    "userName": "Lora But ",
-    "messageText": "0.0.0"
-  },
-  {
-    "messageDate": 1515735836570,
-    "messageId": "4711",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "есть библа которая на новых не работает"
-  },
-  {
-    "messageDate": 1515735842570,
-    "messageId": "679",
-    "userAvatar": "https://i.pravatar.cc/70?img=6",
-    "userId": "6",
-    "userName": "Lora But ",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515735848570,
-    "messageId": "27159",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "v13.12.0"
-  },
-  {
-    "messageDate": 1515735854570,
-    "messageId": "21219",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "нода"
-  },
-  {
-    "messageDate": 1515735860570,
-    "messageId": "12718",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "не стоит скорее)"
-  },
-  {
-    "messageDate": 1515735866570,
-    "messageId": "1288",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "зависимость в стайлките"
-  },
-  {
-    "messageDate": 1515735872570,
-    "messageId": "16140",
-    "userAvatar": "https://i.pravatar.cc/70?img=15",
-    "userId": "15",
-    "userName": "Екатерина Кунец",
-    "messageText": "через nvm 10.16 и 13.12"
-  },
-  {
-    "messageDate": 1515735878570,
-    "messageId": "9251",
-    "userAvatar": "https://i.pravatar.cc/70?img=5",
-    "userId": "5",
-    "userName": "Александр Пухов ",
-    "messageText": "v8.10.0"
-  },
-  {
-    "messageDate": 1515735884570,
-    "messageId": "23685",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Ничего не выводится (после node server...)"
-  },
-  {
-    "messageDate": 1515735890570,
-    "messageId": "7811",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "скорее всего выведет только хэлоу..."
-  },
-  {
-    "messageDate": 1515735896570,
-    "messageId": "28585",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "выведет массив"
-  },
-  {
-    "messageDate": 1515735902570,
-    "messageId": "3165",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "[ 'C:\\Program Files\\nodejs\\node.exe',"
-  },
-  {
-    "messageDate": 1515735908570,
-    "messageId": "30418",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Вот мой вывод"
-  },
-  {
-    "messageDate": 1515735914570,
-    "messageId": "15536",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515735920570,
-    "messageId": "3237",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "http :-)"
-  },
-  {
-    "messageDate": 1515735926570,
-    "messageId": "26468",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "fs"
-  },
-  {
-    "messageDate": 1515735932570,
-    "messageId": "16289",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "openssl"
-  },
-  {
-    "messageDate": 1515735938570,
-    "messageId": "9045",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "ровно 50 =)"
-  },
-  {
-    "messageDate": 1515735944570,
-    "messageId": "8279",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "rhjccgkfnajhvtyyjcnm"
-  },
-  {
-    "messageDate": 1515735950570,
-    "messageId": "30705",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "блин"
-  },
-  {
-    "messageDate": 1515735956570,
-    "messageId": "27809",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "OS specific"
-  },
-  {
-    "messageDate": 1515735962570,
-    "messageId": "4207",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "многоплатформенность"
-  },
-  {
-    "messageDate": 1515735968570,
-    "messageId": "21306",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "мультиплатформенность"
-  },
-  {
-    "messageDate": 1515735974570,
-    "messageId": "25190",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "винда, к слову, любые слэши хавает"
-  },
-  {
-    "messageDate": 1515735980570,
-    "messageId": "21827",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Ilya Sarantsev",
-    "messageText": "Array.forEach"
-  },
-  {
-    "messageDate": 1515735986570,
-    "messageId": "1876",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": ".map()"
-  },
-  {
-    "messageDate": 1515735992570,
-    "messageId": "6366",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "можно проговорить про колбэки все-таки"
-  },
-  {
-    "messageDate": 1515735998570,
-    "messageId": "23753",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "понятно, спасибо"
-  },
-  {
-    "messageDate": 1515736004570,
-    "messageId": "30453",
-    "userAvatar": "https://i.pravatar.cc/70?img=9",
-    "userId": "9",
-    "userName": "Sazonov Dmitry",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515736010570,
-    "messageId": "12394",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515736016570,
-    "messageId": "20461",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515736022570,
-    "messageId": "13525",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "+"
-  },
-  {
-    "messageDate": 1515736028570,
-    "messageId": "26535",
-    "userAvatar": "https://i.pravatar.cc/70?img=10",
-    "userId": "10",
-    "userName": "shydl",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515736034570,
-    "messageId": "25264",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "колбек оборачивает в промис"
-  },
-  {
-    "messageDate": 1515736040570,
-    "messageId": "24202",
-    "userAvatar": "https://i.pravatar.cc/70?img=9",
-    "userId": "9",
-    "userName": "Sazonov Dmitry",
-    "messageText": "кэтч кривой"
-  },
-  {
-    "messageDate": 1515736046570,
-    "messageId": "10029",
-    "userAvatar": "https://i.pravatar.cc/70?img=2",
-    "userId": "2",
-    "userName": "Kirill ",
-    "messageText": "catch неправильно написан"
-  },
-  {
-    "messageDate": 1515736052570,
-    "messageId": "19007",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "ого!"
-  },
-  {
-    "messageDate": 1515736058570,
-    "messageId": "13761",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "я побаиваюсь промисифай использовать, и сам оборачиваю колбеки в промисы"
-  },
-  {
-    "messageDate": 1515736064570,
-    "messageId": "26499",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "это обычно для JS ;)"
-  },
-  {
-    "messageDate": 1515736070570,
-    "messageId": "14166",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "js-hell"
-  },
-  {
-    "messageDate": 1515736076570,
-    "messageId": "27536",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "почему консоль лог пишет свое содержимое, а затем undefined"
-  },
-  {
-    "messageDate": 1515736082570,
-    "messageId": "7430",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515736088570,
-    "messageId": "20843",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "ааа, осознал"
-  },
-  {
-    "messageDate": 1515736094570,
-    "messageId": "2939",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "да)"
-  },
-  {
-    "messageDate": 1515736100570,
-    "messageId": "1699",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "в прпошлый раз смотрели, да))"
-  },
-  {
-    "messageDate": 1515736106570,
-    "messageId": "167",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "carrotina"
-  },
-  {
-    "messageDate": 1515736112570,
-    "messageId": "16491",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "купили же вроде"
-  },
-  {
-    "messageDate": 1515736118570,
-    "messageId": "11824",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "еще часто фреймворки свои настройки предлагают указывать в package.json"
-  },
-  {
-    "messageDate": 1515736124570,
-    "messageId": "17168",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "при new feature разве не должен bug fix обнуляться?"
-  },
-  {
-    "messageDate": 1515736130570,
-    "messageId": "7872",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "по идее должен"
-  },
-  {
-    "messageDate": 1515736136570,
-    "messageId": "10564",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Ilya Sarantsev",
-    "messageText": "Крышечка ^^"
-  },
-  {
-    "messageDate": 1515736142570,
-    "messageId": "4807",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "test command на баше пишется?"
-  },
-  {
-    "messageDate": 1515736148570,
-    "messageId": "16849",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "для ленивых флаг -y"
-  },
-  {
-    "messageDate": 1515736154570,
-    "messageId": "21158",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Т. е. я должен использовать npm init как для того, чтобы подключить чужие пакеты, нужные для моего проекта, так и для того, чтобы созать свой собственный пакет для публикации в npm?"
-  },
-  {
-    "messageDate": 1515736160570,
-    "messageId": "28102",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "для подключения install"
-  },
-  {
-    "messageDate": 1515736166570,
-    "messageId": "12652",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "init для создания package.json"
-  },
-  {
-    "messageDate": 1515736172570,
-    "messageId": "562",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Да, но для install всё равно нужен package.json?"
-  },
-  {
-    "messageDate": 1515736178570,
-    "messageId": "26589",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "да, считай что всегда пакет создаешь "
-  },
-  {
-    "messageDate": 1515736184570,
-    "messageId": "16990",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "просто не публикуешь"
-  },
-  {
-    "messageDate": 1515736190570,
-    "messageId": "3365",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "Можно же глобально поставить пакет, но как его подключить "
-  },
-  {
-    "messageDate": 1515736196570,
-    "messageId": "19415",
-    "userAvatar": "https://i.pravatar.cc/70?img=1",
-    "userId": "1",
-    "userName": "Георгий Минашин",
-    "messageText": "Спасибо за ответы, коллеги."
-  },
-  {
-    "messageDate": 1515736202570,
-    "messageId": "26061",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Pavel",
-    "messageText": "Ворнингов накидал."
-  },
-  {
-    "messageDate": 1515736208570,
-    "messageId": "14991",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "бауэр жив? "
-  },
-  {
-    "messageDate": 1515736214570,
-    "messageId": "28227",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "а глобально зачем ставить?"
-  },
-  {
-    "messageDate": 1515736220570,
-    "messageId": "26315",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "но говорят лучше глобально не ставить, а качать в проект актуальные пакеты) "
-  },
-  {
-    "messageDate": 1515736226570,
-    "messageId": "32187",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "типа прям в систему?"
-  },
-  {
-    "messageDate": 1515736232570,
-    "messageId": "28611",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "Глобально на всю среду ноды"
-  },
-  {
-    "messageDate": 1515736238570,
-    "messageId": "22227",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "я глобально ставил утилиты для терминала "
-  },
-  {
-    "messageDate": 1515736244570,
-    "messageId": "12114",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "а локально - в папку проекта качаются"
-  },
-  {
-    "messageDate": 1515736250570,
-    "messageId": "3439",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "глобально можно поставить архиватор, оптимизатор картинок и т.д."
-  },
-  {
-    "messageDate": 1515736256570,
-    "messageId": "24270",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "-"
-  },
-  {
-    "messageDate": 1515736262570,
-    "messageId": "475",
-    "userAvatar": "https://i.pravatar.cc/70?img=13",
-    "userId": "13",
-    "userName": "Maksim.Shuvaev",
-    "messageText": "npх зачастую отметает необходимось -g"
-  },
-  {
-    "messageDate": 1515736268570,
-    "messageId": "17915",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "node hero - лайтовый гайд (10-12 частей)"
-  },
-  {
-    "messageDate": 1515736274570,
-    "messageId": "23045",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Онлайн-образование",
-    "messageText": "https://otus.ru/polls/9771/"
-  },
-  {
-    "messageDate": 1515736280570,
-    "messageId": "17747",
-    "userAvatar": "https://i.pravatar.cc/70?img=8",
-    "userId": "8",
-    "userName": "Denis Udods ",
-    "messageText": "(y)"
-  },
-  {
-    "messageDate": 1515736286570,
-    "messageId": "12180",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Pavel",
-    "messageText": "Спасибо."
-  },
-  {
-    "messageDate": 1515736292570,
-    "messageId": "344",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "В ДЗ к занятию 3 фала нужно будет? package, server, request"
-  },
-  {
-    "messageDate": 1515736298570,
-    "messageId": "3740",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "сделать"
-  },
-  {
-    "messageDate": 1515736304570,
-    "messageId": "32513",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "request - на broswer или node ?"
-  },
-  {
-    "messageDate": 1515736310570,
-    "messageId": "29621",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "реализовывать под ноду? "
-  },
-  {
-    "messageDate": 1515736316570,
-    "messageId": "17006",
-    "userAvatar": "https://i.pravatar.cc/70?img=9",
-    "userId": "9",
-    "userName": "Sazonov Dmitry",
-    "messageText": "request это обычный js?"
-  },
-  {
-    "messageDate": 1515736322570,
-    "messageId": "15397",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "я понял что проверка дз будет типа как"
-  },
-  {
-    "messageDate": 1515736328570,
-    "messageId": "29651",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "node server.js"
-  },
-  {
-    "messageDate": 1515736334570,
-    "messageId": "31342",
-    "userAvatar": "https://i.pravatar.cc/70?img=3",
-    "userId": "3",
-    "userName": "Владимир Бутыгин ",
-    "messageText": "node reqest.js p 7"
-  },
-  {
-    "messageDate": 1515736340570,
-    "messageId": "7564",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "просто подумал что скрипт будет отправлять запросы из браузера"
-  },
-  {
-    "messageDate": 1515736346570,
-    "messageId": "12468",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "окей"
-  },
-  {
-    "messageDate": 1515736352570,
-    "messageId": "16616",
-    "userAvatar": "https://i.pravatar.cc/70?img=9",
-    "userId": "9",
-    "userName": "Sazonov Dmitry",
-    "messageText": "что-т сервер ни в какую не поднимается, ни через npm start, ни через node server"
-  },
-  {
-    "messageDate": 1515736358570,
-    "messageId": "15583",
-    "userAvatar": "https://i.pravatar.cc/70?img=11",
-    "userId": "11",
-    "userName": "Alexey",
-    "messageText": "спасибо огромное за занятие!"
-  },
-  {
-    "messageDate": 1515736364570,
-    "messageId": "15",
-    "userAvatar": "https://i.pravatar.cc/70?img=14",
-    "userId": "14",
-    "userName": "Чепалино",
-    "messageText": "Дмитрий напиши в слай"
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": { "content": "+", "id": "19028", "date": 1515735314570 }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": { "content": "+", "id": "4113", "date": 1515735320570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": { "content": "+", "id": "12322", "date": 1515735326570 }
+  },
+  {
+    "user": {
+      "name": "strazhnikovaaa ",
+      "id": "4",
+      "avatar": "https://i.pravatar.cc/70?img=4"
+    },
+    "message": { "content": "++", "id": "20266", "date": 1515735332570 }
+  },
+  {
+    "user": {
+      "name": "Александр Пухов ",
+      "id": "5",
+      "avatar": "https://i.pravatar.cc/70?img=5"
+    },
+    "message": { "content": "+", "id": "15599", "date": 1515735338570 }
+  },
+  {
+    "user": {
+      "name": "Lora But ",
+      "id": "6",
+      "avatar": "https://i.pravatar.cc/70?img=6"
+    },
+    "message": { "content": "+", "id": "17672", "date": 1515735344570 }
+  },
+  {
+    "user": {
+      "name": "Vadim ",
+      "id": "7",
+      "avatar": "https://i.pravatar.cc/70?img=7"
+    },
+    "message": { "content": "+", "id": "20403", "date": 1515735350570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "+", "id": "23414", "date": 1515735356570 }
+  },
+  {
+    "user": {
+      "name": "Sazonov Dmitry",
+      "id": "9",
+      "avatar": "https://i.pravatar.cc/70?img=9"
+    },
+    "message": {
+      "content": "+",
+      "id": "29985",
+      "date": 1515735362570
+    }
+  },
+  {
+    "user": {
+      "name": "shydl",
+      "id": "10",
+      "avatar": "https://i.pravatar.cc/70?img=10"
+    },
+    "message": { "content": "все супер )", "id": "12098", "date": 1515735368570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "Q: с чем связанно что весь toolинг для JS стека был создан с нуля, игнорируя все, что было сделано до этого?",
+      "id": "29335",
+      "date": 1515735374570
+    }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": { "content": "-1", "id": "3281", "date": 1515735380570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "-1", "id": "12715", "date": 1515735386570 }
+  },
+  {
+    "user": {
+      "name": "Vadim ",
+      "id": "7",
+      "avatar": "https://i.pravatar.cc/70?img=7"
+    },
+    "message": { "content": "2/10", "id": "8936", "date": 1515735392570 }
+  },
+  {
+    "user": {
+      "name": "Sazonov Dmitry",
+      "id": "9",
+      "avatar": "https://i.pravatar.cc/70?img=9"
+    },
+    "message": { "content": "-", "id": "32565", "date": 1515735398570 }
+  },
+  {
+    "user": {
+      "name": "Lora But ",
+      "id": "6",
+      "avatar": "https://i.pravatar.cc/70?img=6"
+    },
+    "message": { "content": "-2", "id": "16887", "date": 1515735404570 }
+  },
+  {
+    "user": {
+      "name": "maksim.zinyakov",
+      "id": "12",
+      "avatar": "https://i.pravatar.cc/70?img=12"
+    },
+    "message": { "content": "0", "id": "15176", "date": 1515735410570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "4/10", "id": "26900", "date": 1515735416570 }
+  },
+  {
+    "user": {
+      "name": "shydl",
+      "id": "10",
+      "avatar": "https://i.pravatar.cc/70?img=10"
+    },
+    "message": { "content": "небольшой ", "id": "2983", "date": 1515735422570 }
+  },
+  {
+    "user": {
+      "name": "Pavel",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "запускал разок, коннектился к кафке",
+      "id": "29607",
+      "date": 1515735428570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "npm", "id": "16751", "date": 1515735434570 }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": { "content": "5/10", "id": "20107", "date": 1515735440570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": { "content": "3/10", "id": "19993", "date": 1515735446570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "build subsistem, etc",
+      "id": "13690",
+      "date": 1515735452570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "был make,maven,.gradle etc...",
+      "id": "23497",
+      "date": 1515735458570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "из Джавы что ли пришли?)",
+      "id": "25963",
+      "date": 1515735464570
+    }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": { "content": "Из питона", "id": "14039", "date": 1515735470570 }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": { "content": "))", "id": "8389", "date": 1515735476570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "спасибо", "id": "24341", "date": 1515735482570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "а нода на чем написана?",
+      "id": "8602",
+      "date": 1515735488570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "сходить на гит и посмотреть)",
+      "id": "31766",
+      "date": 1515735494570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "Владимир, тоже верно",
+      "id": "29083",
+      "date": 1515735500570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "gcc and g++", "id": "20814", "date": 1515735506570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "C :)", "id": "20257", "date": 1515735512570 }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Где типы!! :-)",
+      "id": "24150",
+      "date": 1515735518570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "++)", "id": "12557", "date": 1515735524570 }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Нет разбиения на классы/модули",
+      "id": "7246",
+      "date": 1515735530570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Если по аналогии с Java/C#",
+      "id": "16735",
+      "date": 1515735536570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "Фреймворка нет, в скриптовых языках тут все было бы в анотациях",
+      "id": "3250",
+      "date": 1515735542570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": { "content": "ну колбэки", "id": "17885", "date": 1515735548570 }
+  },
+  {
+    "user": {
+      "name": "maksim.zinyakov",
+      "id": "12",
+      "avatar": "https://i.pravatar.cc/70?img=12"
+    },
+    "message": {
+      "content": "стрелочные функции",
+      "id": "9768",
+      "date": 1515735554570
+    }
+  },
+  {
+    "user": {
+      "name": "Lora But ",
+      "id": "6",
+      "avatar": "https://i.pravatar.cc/70?img=6"
+    },
+    "message": { "content": "промис", "id": "29497", "date": 1515735560570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "ES6", "id": "25902", "date": 1515735566570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "const , =>", "id": "7414", "date": 1515735572570 }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": {
+      "content": "Не используются ;",
+      "id": "21802",
+      "date": 1515735578570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": { "content": "+", "id": "31310", "date": 1515735584570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "+", "id": "27324", "date": 1515735590570 }
+  },
+  {
+    "user": {
+      "name": "Lora But ",
+      "id": "6",
+      "avatar": "https://i.pravatar.cc/70?img=6"
+    },
+    "message": { "content": "+", "id": "20082", "date": 1515735596570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "+", "id": "27571", "date": 1515735602570 }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": { "content": "+", "id": "8302", "date": 1515735608570 }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": {
+      "content": "никогда не понимал зачем нужен REPL",
+      "id": "4021",
+      "date": 1515735614570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "ну состояние нахождение в среде... когда через cmd сидишь ",
+      "id": "6055",
+      "date": 1515735620570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "а как эвент-луп без него делать?",
+      "id": "20154",
+      "date": 1515735626570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "WebStorm debug из коробки",
+      "id": "29675",
+      "date": 1515735632570
+    }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": {
+      "content": "есть полезная штука NVM",
+      "id": "11710",
+      "date": 1515735638570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "запрос на сервер",
+      "id": "3907",
+      "date": 1515735644570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "успешно выполнить внутренности фигурных скобок?",
+      "id": "17194",
+      "date": 1515735650570
+    }
+  },
+  {
+    "user": {
+      "name": "Александр Пухов ",
+      "id": "5",
+      "avatar": "https://i.pravatar.cc/70?img=5"
+    },
+    "message": {
+      "content": "на порт 8001 стукануться)",
+      "id": "18299",
+      "date": 1515735656570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "дождаться завершение создания сервера",
+      "id": "7497",
+      "date": 1515735662570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "http://localhost:8081",
+      "id": "25177",
+      "date": 1515735668570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "icon", "id": "3699", "date": 1515735674570 }
+  },
+  {
+    "user": {
+      "name": "maksim.zinyakov",
+      "id": "12",
+      "avatar": "https://i.pravatar.cc/70?img=12"
+    },
+    "message": { "content": "корс", "id": "30007", "date": 1515735680570 }
+  },
+  {
+    "user": {
+      "name": "Ilya Sarantsev",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "Давайте посмотрим req",
+      "id": "14963",
+      "date": 1515735686570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "за фавиконом и стилями?",
+      "id": "19198",
+      "date": 1515735692570
+    }
+  },
+  {
+    "user": {
+      "name": "Pavel",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "что за фавикон?",
+      "id": "17588",
+      "date": 1515735698570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "иконка для таба",
+      "id": "30789",
+      "date": 1515735704570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "иконка сайта, которая нв вкладке",
+      "id": "29395",
+      "date": 1515735710570
+    }
+  },
+  {
+    "user": {
+      "name": "Pavel",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "спасибо", "id": "21495", "date": 1515735716570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "$ echo console.log('test') | node",
+      "id": "19273",
+      "date": 1515735722570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "понял, спасибо",
+      "id": "5653",
+      "date": 1515735728570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "репл это как низкоуровневая среда работы с нодой, и понятное дело есть навароты",
+      "id": "3098",
+      "date": 1515735734570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "на сервере тоже single thread + event loop?",
+      "id": "31244",
+      "date": 1515735740570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "да, но немного другой + вместо воркеров есть треды",
+      "id": "28170",
+      "date": 1515735746570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": { "content": "зип", "id": "8466", "date": 1515735752570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "postmortem metadata 0.o",
+      "id": "30743",
+      "date": 1515735758570
+    }
+  },
+  {
+    "user": {
+      "name": "Ilya Sarantsev",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "А uv - это кажется как раз ивент луп?",
+      "id": "5195",
+      "date": 1515735764570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "brotli", "id": "11142", "date": 1515735770570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "openssl", "id": "10734", "date": 1515735776570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "скачать исходник, изменить, скомпилить - профит)",
+      "id": "11779",
+      "date": 1515735782570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "0", "id": "9158", "date": 1515735788570 }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": { "content": "5.1 есть", "id": "25340", "date": 1515735794570 }
+  },
+  {
+    "user": {
+      "name": "Sazonov Dmitry",
+      "id": "9",
+      "avatar": "https://i.pravatar.cc/70?img=9"
+    },
+    "message": { "content": "10.16.0", "id": "21960", "date": 1515735800570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "$ node --version",
+      "id": "15003",
+      "date": 1515735806570
+    }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": { "content": "13.12.0", "id": "24970", "date": 1515735812570 }
+  },
+  {
+    "user": {
+      "name": "strazhnikovaaa ",
+      "id": "4",
+      "avatar": "https://i.pravatar.cc/70?img=4"
+    },
+    "message": { "content": "10.16.3", "id": "4587", "date": 1515735818570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "node --version",
+      "id": "17946",
+      "date": 1515735824570
+    }
+  },
+  {
+    "user": {
+      "name": "Lora But ",
+      "id": "6",
+      "avatar": "https://i.pravatar.cc/70?img=6"
+    },
+    "message": { "content": "0.0.0", "id": "20850", "date": 1515735830570 }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": {
+      "content": "есть библа которая на новых не работает",
+      "id": "4711",
+      "date": 1515735836570
+    }
+  },
+  {
+    "user": {
+      "name": "Lora But ",
+      "id": "6",
+      "avatar": "https://i.pravatar.cc/70?img=6"
+    },
+    "message": { "content": "+", "id": "679", "date": 1515735842570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "v13.12.0", "id": "27159", "date": 1515735848570 }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": { "content": "нода", "id": "21219", "date": 1515735854570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "не стоит скорее)",
+      "id": "12718",
+      "date": 1515735860570
+    }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": {
+      "content": "зависимость в стайлките",
+      "id": "1288",
+      "date": 1515735866570
+    }
+  },
+  {
+    "user": {
+      "name": "Екатерина Кунец",
+      "id": "15",
+      "avatar": "https://i.pravatar.cc/70?img=15"
+    },
+    "message": {
+      "content": "через nvm 10.16 и 13.12",
+      "id": "16140",
+      "date": 1515735872570
+    }
+  },
+  {
+    "user": {
+      "name": "Александр Пухов ",
+      "id": "5",
+      "avatar": "https://i.pravatar.cc/70?img=5"
+    },
+    "message": { "content": "v8.10.0", "id": "9251", "date": 1515735878570 }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Ничего не выводится (после node server...)",
+      "id": "23685",
+      "date": 1515735884570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "скорее всего выведет только хэлоу...",
+      "id": "7811",
+      "date": 1515735890570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "выведет массив",
+      "id": "28585",
+      "date": 1515735896570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "[ 'C:\\Program Files\\nodejs\\node.exe',",
+      "id": "3165",
+      "date": 1515735902570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Вот мой вывод",
+      "id": "30418",
+      "date": 1515735908570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "-", "id": "15536", "date": 1515735914570 }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": { "content": "http :-)", "id": "3237", "date": 1515735920570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "fs", "id": "26468", "date": 1515735926570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "openssl", "id": "16289", "date": 1515735932570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "ровно 50 =)", "id": "9045", "date": 1515735938570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "rhjccgkfnajhvtyyjcnm",
+      "id": "8279",
+      "date": 1515735944570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "блин", "id": "30705", "date": 1515735950570 }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "OS specific", "id": "27809", "date": 1515735956570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "многоплатформенность",
+      "id": "4207",
+      "date": 1515735962570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "мультиплатформенность",
+      "id": "21306",
+      "date": 1515735968570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "винда, к слову, любые слэши хавает",
+      "id": "25190",
+      "date": 1515735974570
+    }
+  },
+  {
+    "user": {
+      "name": "Ilya Sarantsev",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "Array.forEach",
+      "id": "21827",
+      "date": 1515735980570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": ".map()", "id": "1876", "date": 1515735986570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "можно проговорить про колбэки все-таки",
+      "id": "6366",
+      "date": 1515735992570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "понятно, спасибо",
+      "id": "23753",
+      "date": 1515735998570
+    }
+  },
+  {
+    "user": {
+      "name": "Sazonov Dmitry",
+      "id": "9",
+      "avatar": "https://i.pravatar.cc/70?img=9"
+    },
+    "message": { "content": "-", "id": "30453", "date": 1515736004570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "-", "id": "12394", "date": 1515736010570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": { "content": "-", "id": "20461", "date": 1515736016570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "+", "id": "13525", "date": 1515736022570 }
+  },
+  {
+    "user": {
+      "name": "shydl",
+      "id": "10",
+      "avatar": "https://i.pravatar.cc/70?img=10"
+    },
+    "message": { "content": "-", "id": "26535", "date": 1515736028570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "колбек оборачивает в промис",
+      "id": "25264",
+      "date": 1515736034570
+    }
+  },
+  {
+    "user": {
+      "name": "Sazonov Dmitry",
+      "id": "9",
+      "avatar": "https://i.pravatar.cc/70?img=9"
+    },
+    "message": { "content": "кэтч кривой", "id": "24202", "date": 1515736040570 }
+  },
+  {
+    "user": {
+      "name": "Kirill ",
+      "id": "2",
+      "avatar": "https://i.pravatar.cc/70?img=2"
+    },
+    "message": {
+      "content": "catch неправильно написан",
+      "id": "10029",
+      "date": 1515736046570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "ого!", "id": "19007", "date": 1515736052570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "я побаиваюсь промисифай использовать, и сам оборачиваю колбеки в промисы",
+      "id": "13761",
+      "date": 1515736058570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": {
+      "content": "это обычно для JS ;)",
+      "id": "26499",
+      "date": 1515736064570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "js-hell", "id": "14166", "date": 1515736070570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "почему консоль лог пишет свое содержимое, а затем undefined",
+      "id": "27536",
+      "date": 1515736076570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "-", "id": "7430", "date": 1515736082570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "ааа, осознал", "id": "20843", "date": 1515736088570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": { "content": "да)", "id": "2939", "date": 1515736094570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "в прпошлый раз смотрели, да))",
+      "id": "1699",
+      "date": 1515736100570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": { "content": "carrotina", "id": "167", "date": 1515736106570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "купили же вроде",
+      "id": "16491",
+      "date": 1515736112570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "еще часто фреймворки свои настройки предлагают указывать в package.json",
+      "id": "11824",
+      "date": 1515736118570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "при new feature разве не должен bug fix обнуляться?",
+      "id": "17168",
+      "date": 1515736124570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "по идее должен",
+      "id": "7872",
+      "date": 1515736130570
+    }
+  },
+  {
+    "user": {
+      "name": "Ilya Sarantsev",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "Крышечка ^^", "id": "10564", "date": 1515736136570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "test command на баше пишется?",
+      "id": "4807",
+      "date": 1515736142570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "для ленивых флаг -y",
+      "id": "16849",
+      "date": 1515736148570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Т. е. я должен использовать npm init как для того, чтобы подключить чужие пакеты, нужные для моего проекта, так и для того, чтобы созать свой собственный пакет для публикации в npm?",
+      "id": "21158",
+      "date": 1515736154570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "для подключения install",
+      "id": "28102",
+      "date": 1515736160570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "init для создания package.json",
+      "id": "12652",
+      "date": 1515736166570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Да, но для install всё равно нужен package.json?",
+      "id": "562",
+      "date": 1515736172570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "да, считай что всегда пакет создаешь ",
+      "id": "26589",
+      "date": 1515736178570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "просто не публикуешь",
+      "id": "16990",
+      "date": 1515736184570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "Можно же глобально поставить пакет, но как его подключить ",
+      "id": "3365",
+      "date": 1515736190570
+    }
+  },
+  {
+    "user": {
+      "name": "Георгий Минашин",
+      "id": "1",
+      "avatar": "https://i.pravatar.cc/70?img=1"
+    },
+    "message": {
+      "content": "Спасибо за ответы, коллеги.",
+      "id": "19415",
+      "date": 1515736196570
+    }
+  },
+  {
+    "user": {
+      "name": "Pavel",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "Ворнингов накидал.",
+      "id": "26061",
+      "date": 1515736202570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "бауэр жив? ", "id": "14991", "date": 1515736208570 }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "а глобально зачем ставить?",
+      "id": "28227",
+      "date": 1515736214570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "но говорят лучше глобально не ставить, а качать в проект актуальные пакеты) ",
+      "id": "26315",
+      "date": 1515736220570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "типа прям в систему?",
+      "id": "32187",
+      "date": 1515736226570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "Глобально на всю среду ноды",
+      "id": "28611",
+      "date": 1515736232570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "я глобально ставил утилиты для терминала ",
+      "id": "22227",
+      "date": 1515736238570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "а локально - в папку проекта качаются",
+      "id": "12114",
+      "date": 1515736244570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "глобально можно поставить архиватор, оптимизатор картинок и т.д.",
+      "id": "3439",
+      "date": 1515736250570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "-", "id": "24270", "date": 1515736256570 }
+  },
+  {
+    "user": {
+      "name": "Maksim.Shuvaev",
+      "id": "13",
+      "avatar": "https://i.pravatar.cc/70?img=13"
+    },
+    "message": {
+      "content": "npх зачастую отметает необходимось -g",
+      "id": "475",
+      "date": 1515736262570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "node hero - лайтовый гайд (10-12 частей)",
+      "id": "17915",
+      "date": 1515736268570
+    }
+  },
+  {
+    "user": {
+      "name": "Онлайн-образование",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "https://otus.ru/polls/9771/",
+      "id": "23045",
+      "date": 1515736274570
+    }
+  },
+  {
+    "user": {
+      "name": "Denis Udods ",
+      "id": "8",
+      "avatar": "https://i.pravatar.cc/70?img=8"
+    },
+    "message": { "content": "(y)", "id": "17747", "date": 1515736280570 }
+  },
+  {
+    "user": {
+      "name": "Pavel",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "Спасибо.", "id": "12180", "date": 1515736286570 }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "В ДЗ к занятию 3 фала нужно будет? package, server, request",
+      "id": "344",
+      "date": 1515736292570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": { "content": "сделать", "id": "3740", "date": 1515736298570 }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "request - на broswer или node ?",
+      "id": "32513",
+      "date": 1515736304570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "реализовывать под ноду? ",
+      "id": "29621",
+      "date": 1515736310570
+    }
+  },
+  {
+    "user": {
+      "name": "Sazonov Dmitry",
+      "id": "9",
+      "avatar": "https://i.pravatar.cc/70?img=9"
+    },
+    "message": {
+      "content": "request это обычный js?",
+      "id": "17006",
+      "date": 1515736316570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "я понял что проверка дз будет типа как",
+      "id": "15397",
+      "date": 1515736322570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "node server.js",
+      "id": "29651",
+      "date": 1515736328570
+    }
+  },
+  {
+    "user": {
+      "name": "Владимир Бутыгин ",
+      "id": "3",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "content": "node reqest.js p 7",
+      "id": "31342",
+      "date": 1515736334570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "просто подумал что скрипт будет отправлять запросы из браузера",
+      "id": "7564",
+      "date": 1515736340570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": { "content": "окей", "id": "12468", "date": 1515736346570 }
+  },
+  {
+    "user": {
+      "name": "Sazonov Dmitry",
+      "id": "9",
+      "avatar": "https://i.pravatar.cc/70?img=9"
+    },
+    "message": {
+      "content": "что-т сервер ни в какую не поднимается, ни через npm start, ни через node server",
+      "id": "16616",
+      "date": 1515736352570
+    }
+  },
+  {
+    "user": {
+      "name": "Alexey",
+      "id": "11",
+      "avatar": "https://i.pravatar.cc/70?img=11"
+    },
+    "message": {
+      "content": "спасибо огромное за занятие!",
+      "id": "15583",
+      "date": 1515736358570
+    }
+  },
+  {
+    "user": {
+      "name": "Чепалино",
+      "id": "14",
+      "avatar": "https://i.pravatar.cc/70?img=14"
+    },
+    "message": {
+      "content": "Дмитрий напиши в слай",
+      "id": "15",
+      "date": 1515736364570
+    }
   }
 ]

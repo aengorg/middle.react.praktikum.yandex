@@ -6,24 +6,26 @@ import { formatDateRU } from '../../utils/format';
 import { Avatar } from '../UI/Avatar/Avatar';
 
 // types
-interface IProps {
-  activeChannelId: TChannelId;
-  channel: IChannel;
-  onChannelChange: any;
+interface IProps extends IChannel {
+  isSelected: boolean;
+  onChannelChange(TChannelId: TChannelId): void;
 }
 
 // component
-export const Channel = ({ channel, activeChannelId, onChannelChange }: IProps) => {
-  const { id, title, avatar, lastMessage } = channel;
-
-  const active: boolean = activeChannelId === id;
-
+export const Channel = ({
+  id,
+  title,
+  avatar,
+  lastMessage,
+  isSelected,
+  onChannelChange
+}: IProps) => {
   let formattedDate: string = '';
   if (lastMessage) {
     formattedDate = formatDateRU(lastMessage.date);
   }
 
-  const classes: string = `channel ${active ? 'channel--active' : ''}`;
+  const classes: string = `channel ${isSelected ? 'channel--active' : ''}`;
 
   return (
     <div className={classes} onClick={() => onChannelChange(id)}>

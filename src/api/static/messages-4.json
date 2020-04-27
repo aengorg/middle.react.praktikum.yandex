@@ -1,0 +1,330 @@
+[
+  {
+    "messageDate": 1515735320570,
+    "messageId": "19028",
+    "userAvatar": "https://i.pravatar.cc/70?img=9",
+    "userId": "9",
+    "userName": "Георгий Минашин",
+    "messageText": " -"
+  },
+  {
+    "messageDate": 1515735326570,
+    "messageId": "4113",
+    "userAvatar": "https://i.pravatar.cc/70?img=14",
+    "userId": "14",
+    "userName": "strazhnikovaaa",
+    "messageText": " -"
+  },
+  {
+    "messageDate": 1515735332570,
+    "messageId": "12322",
+    "userAvatar": "https://i.pravatar.cc/70?img=8",
+    "userId": "8",
+    "userName": "maksim.zinyakov",
+    "messageText": " -"
+  },
+  {
+    "messageDate": 1515735338570,
+    "messageId": "20266",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " очень интересно будет послушать про аджакс"
+  },
+  {
+    "messageDate": 1515735344570,
+    "messageId": "15599",
+    "userAvatar": "https://i.pravatar.cc/70?img=5",
+    "userId": "5",
+    "userName": "Lora But",
+    "messageText": " -"
+  },
+  {
+    "messageDate": 1515735350570,
+    "messageId": "17672",
+    "userAvatar": "https://i.pravatar.cc/70?img=12",
+    "userId": "12",
+    "userName": "Екатерина Кунец",
+    "messageText": " +"
+  },
+  {
+    "messageDate": 1515735356570,
+    "messageId": "20403",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "userId": "2",
+    "userName": "Владимир Бутыгин",
+    "messageText": " *Отправка запроса на сервер и получение ответа"
+  },
+  {
+    "messageDate": 1515735362570,
+    "messageId": "23414",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "userId": "2",
+    "userName": "Владимир Бутыгин",
+    "messageText": " это опечатка на слайде"
+  },
+  {
+    "messageDate": 1515735368570,
+    "messageId": "29985",
+    "userAvatar": "https://i.pravatar.cc/70?img=13",
+    "userId": "13",
+    "userName": "Твистер",
+    "messageText": " SSE"
+  },
+  {
+    "messageDate": 1515735374570,
+    "messageId": "12098",
+    "userAvatar": "https://i.pravatar.cc/70?img=11",
+    "userId": "11",
+    "userName": "SazonovDV",
+    "messageText": " была ситуация, когда надо было обращаться пост запросом на урл, содержащий гет-хвост... фетч сошел с ума и либо рубил хвост, при указании типа запроса, либо игнорировал то, что постом пришло :("
+  },
+  {
+    "messageDate": 1515735380570,
+    "messageId": "29335",
+    "userAvatar": "https://i.pravatar.cc/70?img=11",
+    "userId": "11",
+    "userName": "SazonovDV",
+    "messageText": " да"
+  },
+  {
+    "messageDate": 1515735386570,
+    "messageId": "3281",
+    "userAvatar": "https://i.pravatar.cc/70?img=11",
+    "userId": "11",
+    "userName": "SazonovDV",
+    "messageText": " они самы"
+  },
+  {
+    "messageDate": 1515735392570,
+    "messageId": "12715",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " со стороны сервера работа с wss как выглядит? если мы про ноду например говорим"
+  },
+  {
+    "messageDate": 1515735398570,
+    "messageId": "8936",
+    "userAvatar": "https://i.pravatar.cc/70?img=13",
+    "userId": "13",
+    "userName": "Твистер",
+    "messageText": " Fetch in NODE  - https://www.npmjs.com/package/isomorphic-fetch"
+  },
+  {
+    "messageDate": 1515735404570,
+    "messageId": "32565",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " +, спасибо"
+  },
+  {
+    "messageDate": 1515735410570,
+    "messageId": "16887",
+    "userAvatar": "https://i.pravatar.cc/70?img=13",
+    "userId": "13",
+    "userName": "Малина",
+    "messageText": " http://jsonplaceholder.typicode.com/"
+  },
+  {
+    "messageDate": 1515735416570,
+    "messageId": "15176",
+    "userAvatar": "https://i.pravatar.cc/70?img=9",
+    "userId": "9",
+    "userName": "Георгий Минашин",
+    "messageText": " method"
+  },
+  {
+    "messageDate": 1515735422570,
+    "messageId": "26900",
+    "userAvatar": "https://i.pravatar.cc/70?img=11",
+    "userId": "11",
+    "userName": "SazonovDV",
+    "messageText": " те. иебсокет это тоже браузерная фишка, а не js?"
+  },
+  {
+    "messageDate": 1515735428570,
+    "messageId": "2983",
+    "userAvatar": "https://i.pravatar.cc/70?img=15",
+    "userId": "15",
+    "userName": "Александр Пухов",
+    "messageText": " это протокол"
+  },
+  {
+    "messageDate": 1515735434570,
+    "messageId": "29607",
+    "userAvatar": "https://i.pravatar.cc/70?img=13",
+    "userId": "13",
+    "userName": "Малина",
+    "messageText": " это протокол"
+  },
+  {
+    "messageDate": 1515735440570,
+    "messageId": "16751",
+    "userAvatar": "https://i.pravatar.cc/70?img=11",
+    "userId": "11",
+    "userName": "SazonovDV",
+    "messageText": " спс"
+  },
+  {
+    "messageDate": 1515735446570,
+    "messageId": "20107",
+    "userAvatar": "https://i.pravatar.cc/70?img=9",
+    "userId": "9",
+    "userName": "Георгий Минашин",
+    "messageText": " +"
+  },
+  {
+    "messageDate": 1515735452570,
+    "messageId": "19993",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " +"
+  },
+  {
+    "messageDate": 1515735458570,
+    "messageId": "13690",
+    "userAvatar": "https://i.pravatar.cc/70?img=5",
+    "userId": "5",
+    "userName": "Lora But",
+    "messageText": " +"
+  },
+  {
+    "messageDate": 1515735464570,
+    "messageId": "23497",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " даже чище, чем в наушниках"
+  },
+  {
+    "messageDate": 1515735470570,
+    "messageId": "25963",
+    "userAvatar": "https://i.pravatar.cc/70?img=9",
+    "userId": "9",
+    "userName": "Георгий Минашин",
+    "messageText": " Спорно)"
+  },
+  {
+    "messageDate": 1515735476570,
+    "messageId": "14039",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " а можете рассказать еще как на страницу добавлять скрипты?"
+  },
+  {
+    "messageDate": 1515735482570,
+    "messageId": "8389",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " ~звук умер~ и вернулся"
+  },
+  {
+    "messageDate": 1515735488570,
+    "messageId": "24341",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " зависло потому что debug включен?"
+  },
+  {
+    "messageDate": 1515735494570,
+    "messageId": "8602",
+    "userAvatar": "https://i.pravatar.cc/70?img=13",
+    "userId": "13",
+    "userName": "Твистер",
+    "messageText": " https://developer.mozilla.org/en-US/docs/Web/API/console/assert"
+  },
+  {
+    "messageDate": 1515735500570,
+    "messageId": "31766",
+    "userAvatar": "https://i.pravatar.cc/70?img=13",
+    "userId": "13",
+    "userName": "Твистер",
+    "messageText": " https://codeburst.io/polling-vs-sse-vs-websocket-how-to-choose-the-right-one-1859e4e13bd9"
+  },
+  {
+    "messageDate": 1515735506570,
+    "messageId": "29083",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "userId": "2",
+    "userName": "Владимир Бутыгин",
+    "messageText": " про дз"
+  },
+  {
+    "messageDate": 1515735512570,
+    "messageId": "20814",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "userId": "2",
+    "userName": "Владимир Бутыгин",
+    "messageText": " к этому занятию, что именно оно должно вернуть..."
+  },
+  {
+    "messageDate": 1515735518570,
+    "messageId": "20257",
+    "userAvatar": "https://i.pravatar.cc/70?img=11",
+    "userId": "11",
+    "userName": "SazonovDV",
+    "messageText": " меня до сих пор мучает мысль, на слайде с CSSOM опечатка и зачеркнуто слово BOM вместо DOM или что-то пропустил? )"
+  },
+  {
+    "messageDate": 1515735524570,
+    "messageId": "24150",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " +"
+  },
+  {
+    "messageDate": 1515735530570,
+    "messageId": "12557",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "userId": "2",
+    "userName": "Владимир Бутыгин",
+    "messageText": " нет, гетпас"
+  },
+  {
+    "messageDate": 1515735536570,
+    "messageId": "7246",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "userId": "2",
+    "userName": "Владимир Бутыгин",
+    "messageText": " к этому занятию"
+  },
+  {
+    "messageDate": 1515735542570,
+    "messageId": "16735",
+    "userAvatar": "https://i.pravatar.cc/70?img=11",
+    "userId": "11",
+    "userName": "SazonovDV",
+    "messageText": " +"
+  },
+  {
+    "messageDate": 1515735548570,
+    "messageId": "3250",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " к следующему тогда, Владимир?"
+  },
+  {
+    "messageDate": 1515735554570,
+    "messageId": "17885",
+    "userAvatar": "https://i.pravatar.cc/70?img=6",
+    "userId": "6",
+    "userName": "Maksim.Shuvaev",
+    "messageText": " к слову, там  jetbrains ключи free 90-day access to the All Products Pack раздает ))"
+  },
+  {
+    "messageDate": 1515735314570,
+    "messageId": "9768",
+    "userAvatar": "https://i.pravatar.cc/70?img=4",
+    "userId": "4",
+    "userName": "Alexey",
+    "messageText": " А можно текст задания на экран?"
+  }
+]

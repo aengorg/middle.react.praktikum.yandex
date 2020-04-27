@@ -1,0 +1,34 @@
+[
+  {
+    "userId": "0003",
+    "userName": "Gregory",
+    "userAvatar": "https://i.pravatar.cc/70?img=3",
+    "messageId": "0004",
+    "messageText": "fugiat elit incididunt culpa duis reprehenderit fugiat. Incididunt non veniam eiusmod esse esse ut anim c",
+    "messageDate": 1587114302641
+  },
+  {
+    "userId": "0002",
+    "userName": "Tanya Pena",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "messageId": "0005",
+    "messageText": "sda as d6a56 d a6s5d 6a6s5d6 a5sd2 a65d6",
+    "messageDate": 1587430000041
+  },
+  {
+    "userId": "00015",
+    "userName": "Tanya Pena",
+    "userAvatar": "https://i.pravatar.cc/70?img=2",
+    "messageId": "0023",
+    "messageText": "asd 6a6s da sd56a5s6 d5as d6a5sd2a65",
+    "messageDate": 1587431300041
+  },
+  {
+    "userId": "00015",
+    "userName": "Margartta",
+    "userAvatar": "https://i.pravatar.cc/70?img=5",
+    "messageId": "0024",
+    "messageText": "s65d6d5a s6da5s2d 2as65d a2d65saa89d as98d a5sd a2s36d65as d7a9s8",
+    "messageDate": 1587538300041
+  }
+]

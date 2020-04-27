@@ -1,0 +1,13 @@
+.message-list {
+  background-color: var(--nord6);
+}
+
+.message-list:empty::after {
+  content: 'EMPTY';
+  width: 100%;
+  display: block;
+
+  font-size: 5rem;
+  text-align: center;
+  color: var(--nord4);
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "0",
+    "avatar": "https://picsum.photos/id/234/70/70",
+    "title": "Brooklyn Cooper",
+    "lastMessage": {
+      "userName": "Margartta",
+      "text": "s65d6d5a s6da5s2d 2as65d a2d65saa89d as98d a5sd a2s36d65as d7a9s8",
+      "date": 1587000328094
+    }
+  },
+  {
+    "id": "1",
+    "avatar": "https://picsum.photos/id/236/70/70",
+    "title": "Preact",
+    "lastMessage": {
+      "userName": "Чепалино",
+      "text": "Дмитрий напиши в слай",
+      "date": 1587735314570
+    }
+  },
+  {
+    "id": "2",
+    "avatar": "https://picsum.photos/id/235/70/70",
+    "title": "Harold Howard",
+    "lastMessage": {
+      "userName": "Твистер",
+      "text": "fugiat elit incididunt culpa duis reprehenderit fugiat. Incididunt non veniam eiusmod esse esse ut anim c",
+      "date": 1587235302641
+    }
+  },
+  {
+    "id": "3",
+    "avatar": "https://picsum.photos/id/231/70/70",
+    "title": "Vuest",
+    "lastMessage": {
+      "userName": "Alexey",
+      "text": "А можно текст задания на экран?",
+      "date": 1587235302641
+    }
+  },
+  {
+    "id": "4",
+    "avatar": "https://picsum.photos/id/230/70/70",
+    "title": "No msg !"
+  }
+]

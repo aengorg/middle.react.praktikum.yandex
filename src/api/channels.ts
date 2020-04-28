@@ -1,3 +1,7 @@
+/**
+ * Весь закомментированный код оставлен на будущую реализацию обращения к API сервиса
+ */
+
 // import { API_URL } from '../constants';
 // import { http, IHttpResponse } from '../utils/http';
 

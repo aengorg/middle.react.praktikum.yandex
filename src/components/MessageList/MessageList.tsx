@@ -1,7 +1,7 @@
 import React from 'react';
 import './MessageList.scss';
 
-import genKey from '../../utils/generation';
+import { genKey } from '../../utils/generation';
 import Message from '../Message/Message';
 import DateSeparator from '../Message/DateSeparator';
 

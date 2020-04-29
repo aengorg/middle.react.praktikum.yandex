@@ -1,4 +1,4 @@
 import { memo } from 'react';
-import { MessageList } from './MessageList';
+import { MessageList as MessageListComponent } from './MessageList';
 
-export default memo(MessageList);
+export const MessageList = memo(MessageListComponent);

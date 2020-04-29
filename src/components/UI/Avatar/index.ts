@@ -1,4 +1,4 @@
 import { memo } from 'react';
-import { Avatar } from './Avatar';
+import { Avatar as AvatarComponent } from './Avatar';
 
-export default memo(Avatar);
+export const Avatar = memo(AvatarComponent);

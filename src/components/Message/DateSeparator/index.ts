@@ -1,4 +1,4 @@
 import { memo } from 'react';
-import { DateSeparator } from './DateSeparator';
+import { DateSeparator as DateSeparatorComponent } from './DateSeparator';
 
-export default memo(DateSeparator);
+export const DateSeparator = memo(DateSeparatorComponent);

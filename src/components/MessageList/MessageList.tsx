@@ -2,8 +2,8 @@ import React from 'react';
 import './MessageList.scss';
 
 import { genKey } from '../../utils/generation';
-import Message from '../Message/Message';
-import DateSeparator from '../Message/DateSeparator';
+import { Message } from '../Message/Message';
+import { DateSeparator } from '../Message/DateSeparator';
 
 import { IMessage } from '../Message/Message/types';
 import { IMessageListProps } from './types';

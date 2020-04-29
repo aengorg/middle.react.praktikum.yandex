@@ -2,7 +2,7 @@ import React from 'react';
 import './Channel.scss';
 
 import { formatDateRU } from '../../utils/format';
-import Avatar from '../UI/Avatar';
+import { Avatar } from '../UI/Avatar';
 
 import { IChannelProps } from './types';
 
@@ -12,8 +12,8 @@ export const Channel = ({
   avatar,
   lastMessage,
   isSelected,
-  className,
-  onChannelChange
+  onChannelChange,
+  className = ''
 }: IChannelProps) => {
   const formattedDate: string = lastMessage ? formatDateRU(lastMessage.date) : '';
   const classes: string = isSelected ? 'channel--active' : '';

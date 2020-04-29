@@ -1,4 +1,4 @@
 import { memo } from 'react';
-import { Message } from './Message';
+import { Message as MessageComponent } from './Message';
 
-export default memo(Message);
+export const Message = memo(MessageComponent);

@@ -4,8 +4,8 @@ import './Chat.scss';
 import * as channelsAPI from '../../api/channels';
 import * as messagesAPI from '../../api/messages';
 
-import ChannelList from '../ChannelList';
-import MessageList from '../MessageList';
+import { ChannelList } from '../ChannelList';
+import { MessageList } from '../MessageList';
 
 import { IChatProps, IChatState } from './types';
 import { TChannelId } from '../Channel/types';
@@ -25,10 +25,9 @@ export class Chat extends Component<IChatProps, IChatState> {
     messages: []
   };
 
-  componentDidMount() {
-    this.setChannels().then(channels =>
-      channels.length ? this.setMessages(channels[0].id) : null
-    );
+  async componentDidMount() {
+    const channels = await this.setChannels();
+    if (channels.length) this.setMessages(channels[0].id);
   }
 
   async setChannels(): Promise<TChannelsList> {

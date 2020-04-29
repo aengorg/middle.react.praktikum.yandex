@@ -17,3 +17,8 @@ export interface IMessage {
   user: IUser;
   message: IMessageContent;
 }
+
+export interface IMessageProps {
+  message: IMessageContent;
+  user: IUser;
+}

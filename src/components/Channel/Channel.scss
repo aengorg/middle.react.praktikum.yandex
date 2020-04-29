@@ -1,6 +1,6 @@
 .channel {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   height: 90px;
   padding: 10px;
   cursor: pointer;
@@ -8,13 +8,11 @@
 
   &__avatar {
     flex-shrink: 0;
-    width: 70px;
-    height: 70px;
-    flex-basis: 70px;
     margin-right: 10px;
   }
 
   &__body {
+    width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -34,6 +32,8 @@
   }
 
   &__title {
+    margin-right: 10px;
+    white-space: nowrap;
     font-size: 1.3rem;
   }
 
@@ -47,6 +47,9 @@
   }
 
   &__date {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     font-size: 1rem;
     color: var(--nord3);
   }
@@ -58,4 +61,10 @@
 
 .channel:hover {
   background-color: var(--nord6);
+}
+
+@media (max-width: 400px) {
+  .channel {
+    height: 70px;
+  }
 }

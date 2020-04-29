@@ -1,18 +1,12 @@
 import React from 'react';
 import './Message.scss';
 
-import { IMessageContent, IUser } from './types';
 import { formatTime } from '../../../utils/format';
-import { Avatar } from '../../UI/Avatar/Avatar';
+import Avatar from '../../UI/Avatar';
 
-// types
-interface Props {
-  message: IMessageContent;
-  user: IUser;
-}
+import { IMessageProps } from './types';
 
-// component
-export const Message = ({ message, user }: Props) => {
+export const Message = ({ message, user }: IMessageProps) => {
   const time: string = formatTime(message.date);
 
   return (

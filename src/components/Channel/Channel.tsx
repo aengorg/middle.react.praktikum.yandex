@@ -1,34 +1,25 @@
 import React from 'react';
 import './Channel.scss';
 
-import { TChannelId, IChannel } from './types';
 import { formatDateRU } from '../../utils/format';
-import { Avatar } from '../UI/Avatar/Avatar';
+import Avatar from '../UI/Avatar';
 
-// types
-interface IProps extends IChannel {
-  isSelected: boolean;
-  onChannelChange(TChannelId: TChannelId): void;
-}
+import { IChannelProps } from './types';
 
-// component
 export const Channel = ({
   id,
   title,
   avatar,
   lastMessage,
   isSelected,
+  className,
   onChannelChange
-}: IProps) => {
-  let formattedDate: string = '';
-  if (lastMessage) {
-    formattedDate = formatDateRU(lastMessage.date);
-  }
-
+}: IChannelProps) => {
+  const formattedDate: string = lastMessage ? formatDateRU(lastMessage.date) : '';
   const classes: string = isSelected ? 'channel--active' : '';
 
   return (
-    <div className={`channel ${classes}`} onClick={() => onChannelChange(id)}>
+    <div className={`channel ${className} ${classes}`} onClick={() => onChannelChange(id)}>
       <Avatar className='channel__avatar' avatar={avatar} title={title} />
       <div className='channel__body'>
         <div className='channel__header'>

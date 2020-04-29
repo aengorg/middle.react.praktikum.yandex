@@ -2,6 +2,7 @@
   "name": "react-messenger",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aengorg.github.io/middle.react.praktikum.yandex",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -17,6 +18,9 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "gh-pages:help": "gh-pages --help",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './Message.scss';
 
 import { formatTime } from '../../../utils/format';
-import { Avatar } from '../../UI/Avatar/Avatar';
+import Avatar from '../../UI/Avatar';
 
 import { IMessageProps } from './types';
 

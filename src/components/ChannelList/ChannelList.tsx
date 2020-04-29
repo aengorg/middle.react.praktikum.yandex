@@ -2,7 +2,6 @@ import React from 'react';
 import './ChannelList.scss';
 
 import Channel from '../Channel';
-import { Channel } from '../Channel/Channel';
 
 import { IChannel } from '../Channel/types';
 import { TChannelsList, IChannelListProps } from './types';
@@ -13,19 +12,19 @@ export const ChannelList = ({
   channelsList,
   onChannelChange
 }: IChannelListProps) => {
-  const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) => {
-    if (a.lastMessage === undefined || b.lastMessage === undefined) return 1;
-    return b.lastMessage.date - a.lastMessage.date;
-  });
+  const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) =>
+    a.lastMessage && b.lastMessage ? b.lastMessage.date - a.lastMessage.date : 1
+  );
 
   return (
-    <div className={className + ' channel-list'}>
+    <div className={`${className} channel-list`}>
       {sortedChannelsList.map((channel: IChannel) => (
         <Channel
           {...channel}
           key={channel.id}
           isSelected={activeChannelId === channel.id}
           onChannelChange={onChannelChange}
+          className='channel-list__channel'
         />
       ))}
     </div>

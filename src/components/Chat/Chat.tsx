@@ -4,15 +4,15 @@ import './Chat.scss';
 import * as channelsAPI from '../../api/channels';
 import * as messagesAPI from '../../api/messages';
 
+import ChannelList from '../ChannelList';
+import MessageList from '../MessageList';
+
 import { IChatProps, IChatState } from './types';
 import { TChannelId } from '../Channel/types';
 import { TChannelsList } from '../ChannelList/types';
 
 export class Chat extends Component<IChatProps, IChatState> {
   constructor(props: IChatProps) {
-
-class Chat extends Component<IProps, IState> {
-  constructor(props: IProps) {
     super(props);
 
     this.setChannels = this.setChannels.bind(this);
@@ -41,9 +41,7 @@ class Chat extends Component<IProps, IState> {
   async setMessages(channelId: TChannelId): Promise<void> {
     const messages = await messagesAPI.getMessages(channelId);
     this.setState({
-      activeChannelId: channelId
-    });
-    this.setState({
+      activeChannelId: channelId,
       messages: messages
     });
   }

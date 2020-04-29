@@ -1,11 +1,12 @@
 import React from 'react';
 import './MessageList.scss';
 
-import genKey from '../../utils/generation';
+import { genKey } from '../../utils/generation';
+import Message from '../Message/Message';
+import DateSeparator from '../Message/DateSeparator';
+
 import { IMessage } from '../Message/Message/types';
 import { IMessageListProps } from './types';
-import { Message } from '../Message/Message/Message';
-import { DateSeparator } from '../Message/DateSeparator/DateSeparator';
 
 let currentDay: number = 0;
 const renderDate = (date: number) => {
@@ -19,10 +20,10 @@ const renderDate = (date: number) => {
 export const MessageList = ({ className, messagesList }: IMessageListProps) => {
   return (
     <div className={className + ' message-list'}>
-      {messagesList.map((message: IMessage) => (
+      {messagesList.map((msg: IMessage) => (
         <React.Fragment key={genKey()}>
-          {renderDate(message.message.date)}
-          <Message key={message.message.id} {...message} />
+          {renderDate(msg.message.date)}
+          <Message key={msg.message.id} {...msg} />
         </React.Fragment>
       ))}
     </div>

@@ -18,13 +18,14 @@ export const ChannelList = ({
   });
 
   return (
-    <div className={className + ' channel-list'}>
+    <div className={`${className} channel-list`}>
       {sortedChannelsList.map((channel: IChannel) => (
         <Channel
           {...channel}
           key={channel.id}
           isSelected={activeChannelId === channel.id}
           onChannelChange={onChannelChange}
+          className='channel-list__channel'
         />
       ))}
     </div>

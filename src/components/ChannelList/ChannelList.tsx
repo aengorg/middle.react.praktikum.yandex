@@ -12,10 +12,9 @@ export const ChannelList = ({
   channelsList,
   onChannelChange
 }: IChannelListProps) => {
-  const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) => {
-    if (a.lastMessage === undefined || b.lastMessage === undefined) return 1;
-    return b.lastMessage.date - a.lastMessage.date;
-  });
+  const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) =>
+    a.lastMessage && b.lastMessage ? b.lastMessage.date - a.lastMessage.date : 1
+  );
 
   return (
     <div className={`${className} channel-list`}>

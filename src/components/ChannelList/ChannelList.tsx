@@ -2,12 +2,10 @@ import React from 'react';
 import './ChannelList.scss';
 
 import Channel from '../Channel';
-import { Channel } from '../Channel/Channel';
 
 import { IChannel } from '../Channel/types';
 import { TChannelsList, IChannelListProps } from './types';
 
-// component
 export const ChannelList = ({
   className,
   activeChannelId,
@@ -20,13 +18,14 @@ export const ChannelList = ({
   });
 
   return (
-    <div className={className + ' channel-list'}>
+    <div className={`${className} channel-list`}>
       {sortedChannelsList.map((channel: IChannel) => (
         <Channel
           {...channel}
           key={channel.id}
           isSelected={activeChannelId === channel.id}
           onChannelChange={onChannelChange}
+          className='channel-list__channel'
         />
       ))}
     </div>

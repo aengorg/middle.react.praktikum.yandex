@@ -4,19 +4,23 @@
   width: 1200px;
 
   &__channel-list {
-    min-width: 370px;
-    width: 25vw;
-    height: 100%;
+    max-width: 400px;
     background-color: white;
     overflow-y: auto;
     overflow-x: hidden;
   }
 
   &__message-list {
-    width: 100%;
-    height: 100%;
     background-color: var(--nord6);
     overflow-y: auto;
     overflow-x: hidden;
+  }
+}
+
+@media (max-width: 400px) {
+  .chat {
+    &__channel-list {
+      max-width: 70px;
+    }
   }
 }

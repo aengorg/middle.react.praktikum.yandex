@@ -20,10 +20,10 @@ const renderDate = (date: number) => {
 export const MessageList = ({ className, messagesList }: IMessageListProps) => {
   return (
     <div className={className + ' message-list'}>
-      {messagesList.map((message: IMessage) => (
+      {messagesList.map((msg: IMessage) => (
         <React.Fragment key={genKey()}>
-          {renderDate(message.message.date)}
-          <Message key={message.message.id} {...message} />
+          {renderDate(msg.message.date)}
+          <Message key={msg.message.id} {...msg} />
         </React.Fragment>
       ))}
     </div>

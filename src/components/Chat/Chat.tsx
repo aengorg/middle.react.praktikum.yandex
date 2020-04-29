@@ -41,9 +41,7 @@ export class Chat extends Component<IChatProps, IChatState> {
   async setMessages(channelId: TChannelId): Promise<void> {
     const messages = await messagesAPI.getMessages(channelId);
     this.setState({
-      activeChannelId: channelId
-    });
-    this.setState({
+      activeChannelId: channelId,
       messages: messages
     });
   }

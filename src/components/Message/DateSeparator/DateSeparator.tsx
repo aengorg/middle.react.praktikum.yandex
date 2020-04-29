@@ -3,11 +3,9 @@ import './DateSeparator.scss';
 
 import { formatDateTextRU } from '../../../utils/format';
 
-interface IProps {
-  date: number;
-}
+import { IDateSeparatorProps } from './types';
 
-export const DateSeparator = ({ date }: IProps) => {
+export const DateSeparator = ({ date }: IDateSeparatorProps) => {
   const formattedDate: string = formatDateTextRU(date);
 
   return (

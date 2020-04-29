@@ -1,17 +1,11 @@
 import React from 'react';
 import './ChannelList.scss';
 
-import { TChannelId, IChannel } from '../Channel/types';
-import { TChannelsList } from './types';
+import Channel from '../Channel';
 import { Channel } from '../Channel/Channel';
 
-// types
-interface IProps {
-  className: string;
-  activeChannelId: TChannelId;
-  channelsList: TChannelsList;
-  onChannelChange(TChannelId: TChannelId): void;
-}
+import { IChannel } from '../Channel/types';
+import { TChannelsList, IChannelListProps } from './types';
 
 // component
 export const ChannelList = ({
@@ -19,7 +13,7 @@ export const ChannelList = ({
   activeChannelId,
   channelsList,
   onChannelChange
-}: IProps) => {
+}: IChannelListProps) => {
   const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) => {
     if (a.lastMessage === undefined || b.lastMessage === undefined) return 1;
     return b.lastMessage.date - a.lastMessage.date;

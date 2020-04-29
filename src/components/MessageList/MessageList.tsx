@@ -3,15 +3,9 @@ import './MessageList.scss';
 
 import genKey from '../../utils/generation';
 import { IMessage } from '../Message/Message/types';
-import { TMessagesList } from './types';
+import { IMessageListProps } from './types';
 import { Message } from '../Message/Message/Message';
 import { DateSeparator } from '../Message/DateSeparator/DateSeparator';
-
-// types
-interface IProps {
-  className: string;
-  messagesList: TMessagesList;
-}
 
 // component
 let currentDay: number = 0;
@@ -23,7 +17,7 @@ const renderDate = (date: number) => {
   }
 };
 
-export const MessageList = ({ className, messagesList }: IProps) => {
+export const MessageList = ({ className, messagesList }: IMessageListProps) => {
   return (
     <div className={className + ' message-list'}>
       {messagesList.map((message: IMessage) => (

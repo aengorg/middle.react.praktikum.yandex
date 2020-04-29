@@ -1,15 +1,10 @@
 import React from 'react';
 import './Channel.scss';
 
-import { TChannelId, IChannel } from './types';
 import { formatDateRU } from '../../utils/format';
 import { Avatar } from '../UI/Avatar/Avatar';
 
-// types
-interface IProps extends IChannel {
-  isSelected: boolean;
-  onChannelChange(TChannelId: TChannelId): void;
-}
+import { IChannelProps } from './types';
 
 // component
 export const Channel = ({
@@ -19,7 +14,7 @@ export const Channel = ({
   lastMessage,
   isSelected,
   onChannelChange
-}: IProps) => {
+}: IChannelProps) => {
   let formattedDate: string = '';
   if (lastMessage) {
     formattedDate = formatDateRU(lastMessage.date);

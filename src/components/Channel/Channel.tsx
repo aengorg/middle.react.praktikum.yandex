@@ -15,11 +15,7 @@ export const Channel = ({
   className,
   onChannelChange
 }: IChannelProps) => {
-  let formattedDate: string = '';
-  if (lastMessage) {
-    formattedDate = formatDateRU(lastMessage.date);
-  }
-
+  const formattedDate: string = lastMessage ? formatDateRU(lastMessage.date) : '';
   const classes: string = isSelected ? 'channel--active' : '';
 
   return (

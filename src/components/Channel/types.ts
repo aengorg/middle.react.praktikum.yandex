@@ -16,5 +16,5 @@ export interface IChannel {
 export interface IChannelProps extends IChannel {
   isSelected: boolean;
   onChannelChange(TChannelId: TChannelId): void;
-  className: string;
+  className?: string;
 }

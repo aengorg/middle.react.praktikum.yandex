@@ -26,8 +26,9 @@ export class Chat extends Component<IChatProps, IChatState> {
   };
 
   componentDidMount() {
-    this.setChannels();
-    this.setMessages('0');
+    this.setChannels().then(channels =>
+      channels.length ? this.setMessages(channels[0].id) : null
+    );
   }
 
   async setChannels(): Promise<TChannelsList> {

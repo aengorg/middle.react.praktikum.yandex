@@ -7,7 +7,6 @@ import { Channel } from '../Channel/Channel';
 import { IChannel } from '../Channel/types';
 import { TChannelsList, IChannelListProps } from './types';
 
-// component
 export const ChannelList = ({
   className,
   activeChannelId,

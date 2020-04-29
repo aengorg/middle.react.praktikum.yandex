@@ -6,7 +6,6 @@ import { Avatar } from '../UI/Avatar/Avatar';
 
 import { IChannelProps } from './types';
 
-// component
 export const Channel = ({
   id,
   title,

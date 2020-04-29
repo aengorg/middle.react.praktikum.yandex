@@ -7,7 +7,6 @@ import { IMessageListProps } from './types';
 import { Message } from '../Message/Message/Message';
 import { DateSeparator } from '../Message/DateSeparator/DateSeparator';
 
-// component
 let currentDay: number = 0;
 const renderDate = (date: number) => {
   let day: number = new Date(date).getDate();

@@ -2,7 +2,6 @@ import React from 'react';
 import './ChannelList.scss';
 
 import Channel from '../Channel';
-import { Channel } from '../Channel/Channel';
 
 import { IChannel } from '../Channel/types';
 import { TChannelsList, IChannelListProps } from './types';

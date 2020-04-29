@@ -1,4 +1,4 @@
 import { memo } from 'react';
-import { Channel } from './Channel';
+import { Channel as ChannelComponent } from './Channel';
 
-export default memo(Channel);
+export const Channel = memo(ChannelComponent);

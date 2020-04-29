@@ -2,7 +2,7 @@ import React from 'react';
 import './Channel.scss';
 
 import { formatDateRU } from '../../utils/format';
-import Avatar from '../UI/Avatar';
+import { Avatar } from '../UI/Avatar';
 
 import { IChannelProps } from './types';
 

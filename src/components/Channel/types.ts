@@ -12,3 +12,9 @@ export interface IChannel {
   avatar: string;
   lastMessage?: ILastMessage;
 }
+
+export interface IChannelProps extends IChannel {
+  isSelected: boolean;
+  onChannelChange(TChannelId: TChannelId): void;
+  className?: string;
+}

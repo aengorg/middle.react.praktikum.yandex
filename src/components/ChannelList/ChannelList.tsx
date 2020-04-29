@@ -1,38 +1,30 @@
 import React from 'react';
 import './ChannelList.scss';
 
-import { TChannelId, IChannel } from '../Channel/types';
-import { TChannelsList } from './types';
-import { Channel } from '../Channel/Channel';
+import { Channel } from '../Channel';
 
-// types
-interface IProps {
-  className: string;
-  activeChannelId: TChannelId;
-  channelsList: TChannelsList;
-  onChannelChange(TChannelId: TChannelId): void;
-}
+import { IChannel } from '../Channel/types';
+import { TChannelsList, IChannelListProps } from './types';
 
-// component
 export const ChannelList = ({
-  className,
   activeChannelId,
   channelsList,
-  onChannelChange
-}: IProps) => {
-  const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) => {
-    if (a.lastMessage === undefined || b.lastMessage === undefined) return 1;
-    return b.lastMessage.date - a.lastMessage.date;
-  });
+  onChannelChange,
+  className = ''
+}: IChannelListProps) => {
+  const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) =>
+    a.lastMessage && b.lastMessage ? b.lastMessage.date - a.lastMessage.date : 1
+  );
 
   return (
-    <div className={className + ' channel-list'}>
+    <div className={`channel-list ${className}`}>
       {sortedChannelsList.map((channel: IChannel) => (
         <Channel
           {...channel}
           key={channel.id}
           isSelected={activeChannelId === channel.id}
           onChannelChange={onChannelChange}
+          className='channel-list__channel'
         />
       ))}
     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 
-import Chat from '../../components/Chat/Chat';
+import { Chat } from '../../components/Chat';
 
 function App() {
   return (

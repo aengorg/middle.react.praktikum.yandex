@@ -4,53 +4,44 @@ import './Chat.scss';
 import * as channelsAPI from '../../api/channels';
 import * as messagesAPI from '../../api/messages';
 
+import { ChannelList } from '../ChannelList';
+import { MessageList } from '../MessageList';
+
+import { IChatProps, IChatState } from './types';
 import { TChannelId } from '../Channel/types';
 import { TChannelsList } from '../ChannelList/types';
-import { TMessagesList } from '../MessageList/types';
 
-import { ChannelList } from '../ChannelList/ChannelList';
-import { MessageList } from '../MessageList/MessageList';
-
-interface IProps {}
-
-interface IState {
-  activeChannelId: TChannelId;
-  channels: TChannelsList;
-  messages: TMessagesList;
-}
-
-class Chat extends Component<IProps, IState> {
-  constructor(props: IProps) {
+export class Chat extends Component<IChatProps, IChatState> {
+  constructor(props: IChatProps) {
     super(props);
 
     this.setChannels = this.setChannels.bind(this);
     this.setMessages = this.setMessages.bind(this);
   }
 
-  state: Readonly<IState> = {
+  state: Readonly<IChatState> = {
     activeChannelId: '',
     channels: [],
     messages: []
   };
 
-  componentDidMount() {
-    this.setChannels();
-    this.setMessages('0');
+  async componentDidMount() {
+    const channels = await this.setChannels();
+    if (channels.length) this.setMessages(channels[0].id);
   }
 
-  async setChannels(): Promise<void> {
-    const channels = (await channelsAPI.getChannels()) || [];
+  async setChannels(): Promise<TChannelsList> {
+    const channels = await channelsAPI.getChannels();
     this.setState({
       channels: channels
     });
+    return channels;
   }
 
   async setMessages(channelId: TChannelId): Promise<void> {
-    const messages = (await messagesAPI.getMessages(channelId)) || [];
+    const messages = await messagesAPI.getMessages(channelId);
     this.setState({
-      activeChannelId: channelId
-    });
-    this.setState({
+      activeChannelId: channelId,
       messages: messages
     });
   }
@@ -73,5 +64,3 @@ class Chat extends Component<IProps, IState> {
     );
   }
 }
-
-export default Chat;

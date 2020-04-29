@@ -39,14 +39,14 @@ class Chat extends Component<IProps, IState> {
   }
 
   async setChannels(): Promise<void> {
-    const channels = (await channelsAPI.getChannels()) || [];
+    const channels = await channelsAPI.getChannels();
     this.setState({
       channels: channels
     });
   }
 
   async setMessages(channelId: TChannelId): Promise<void> {
-    const messages = (await messagesAPI.getMessages(channelId)) || [];
+    const messages = await messagesAPI.getMessages(channelId);
     this.setState({
       activeChannelId: channelId
     });

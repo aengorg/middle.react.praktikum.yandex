@@ -18,40 +18,65 @@ export class Chat extends Component<Props, State> {
   };
 
   async componentDidMount() {
-    const channels = await this.setChannels();
-    if (channels.length) this.setMessages(channels[0].id);
+    this.setChannels();
+
+    const { channelId } = this.props.match.params;
+    if (channelId) {
+      this.setMessages(channelId);
+    }
   }
 
-  async setChannels(): Promise<TChannelsList> {
+  setChannels = async (): Promise<void> => {
     const channels = await channelsAPI.getChannels();
     this.setState({
-      channels: channels
+      channels: channels,
     });
-    return channels;
-  }
+  };
 
-  async setMessages(channelId: TChannelId): Promise<void> {
+  setMessages = async (channelId: TChannelId): Promise<void> => {
     const messages = await messagesAPI.getMessages(channelId);
-    this.setState({
-      activeChannelId: channelId,
-      messages: messages
-    });
-  }
+    if (messages !== undefined) {
+      this.setState({
+        activeChannelId: channelId,
+        messages: messages,
+      });
+    }
+  };
 
   render() {
-    const channelsList = this.state.channels;
-    const messagesList = this.state.messages;
-    const activeChannelId = this.state.activeChannelId;
+    const { channels, messages, activeChannelId } = this.state;
 
     return (
-      <div className='chat'>
-        <ChannelList
-          className='chat__channel-list'
-          channelsList={channelsList}
-          activeChannelId={activeChannelId}
-          onChannelChange={this.setMessages}
-        />
-        <MessageList className='chat__message-list' messagesList={messagesList} />
+      <div className="chat">
+        <div className="chat__header">
+          {/* <div>search 1</div>
+          <div>search 2</div> */}
+        </div>
+        <div className="chat__body">
+          <Route path="/chat/:channelId?">
+            <ChannelList
+              className="chat__channel-list"
+              channelsList={channels}
+              activeChannelId={activeChannelId}
+              onChannelChange={this.setMessages}
+            />
+          </Route>
+          <Switch>
+            <Route path="/chat/:channelId">
+              <MessageList
+                className="chat__message-list"
+                messagesList={messages}
+              />
+            </Route>
+            <Route path="/chat">
+              <div className="chat__message-list">ZERO</div>
+            </Route>
+          </Switch>
+        </div>
+        <div className="chat__footer">
+          {/* <div>profile</div>
+          <div>send msg</div> */}
+        </div>
       </div>
     );
   }

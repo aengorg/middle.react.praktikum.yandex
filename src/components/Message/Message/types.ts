@@ -1,8 +1,9 @@
 import { IUser, IMessageContent } from '../../../types';
 
 interface OwnProps {
-  message: IMessageContent;
   user: IUser;
+  short?: boolean;
+  message: IMessageContent;
 }
 
 export type Props = OwnProps;

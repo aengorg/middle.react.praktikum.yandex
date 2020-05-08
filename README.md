@@ -12,7 +12,7 @@ Frontend messenger created on react.
 
 ## Test stand
 
-[GitHub Pages]()
+[GitHub Pages](https://aengorg.github.io/middle.react.praktikum.yandex/)
 
 ## Roadmap
 

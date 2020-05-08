@@ -13,24 +13,29 @@ export const Channel = ({
   lastMessage,
   isSelected,
   onChannelChange,
-  className = ''
+  className = '',
 }: IChannelProps) => {
-  const formattedDate: string = lastMessage ? formatDateRU(lastMessage.date) : '';
+  const formattedDate: string = lastMessage
+    ? formatDateRU(lastMessage.date)
+    : '';
   const classes: string = isSelected ? 'channel--active' : '';
 
   return (
-    <div className={`channel ${className} ${classes}`} onClick={() => onChannelChange(id)}>
-      <Avatar className='channel__avatar' avatar={avatar} title={title} />
-      <div className='channel__body'>
-        <div className='channel__header'>
-          <span className='channel__title'>{title}</span>
-          <span className='channel__date'>{formattedDate}</span>
+    <div
+      className={`channel ${className} ${classes}`}
+      onClick={() => onChannelChange(id)}
+    >
+      <Avatar className="channel__avatar" avatar={avatar} title={title} />
+      <div className="channel__body">
+        <div className="channel__header">
+          <span className="channel__title">{title}</span>
+          <span className="channel__date">{formattedDate}</span>
         </div>
         {lastMessage ? (
-          <div className='channel__footer'>
-            <span className='channel__user-name'>{lastMessage.userName}</span>
+          <div className="channel__footer">
+            <span className="channel__user-name">{lastMessage.userName}</span>
             {` : `}
-            <span className='channel__message'>{lastMessage.text}</span>
+            <span className="channel__message">{lastMessage.text}</span>
           </div>
         ) : null}
       </div>

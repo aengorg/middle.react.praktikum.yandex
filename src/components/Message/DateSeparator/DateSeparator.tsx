@@ -9,8 +9,8 @@ export const DateSeparator = ({ date }: IDateSeparatorProps) => {
   const formattedDate: string = formatDateTextRU(date);
 
   return (
-    <div className='date'>
-      <span className='date__text'>{formattedDate}</span>
+    <div className="date">
+      <span className="date__text">{formattedDate}</span>
     </div>
   );
 };

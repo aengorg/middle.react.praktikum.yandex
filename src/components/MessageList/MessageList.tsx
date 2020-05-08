@@ -5,10 +5,10 @@ import { genKey } from '../../utils/generation';
 import { Message } from '../Message/Message';
 import { DateSeparator } from '../Message/DateSeparator';
 
-import { IMessage } from '../../types';
+import { IMessage, TUserId } from '../../types';
 import { Props } from './types';
 
-let lastDay = 0;
+let lastDay: number = 0;
 const renderDate = (date: number) => {
   let day: number = new Date(date).getDate();
   if (day !== lastDay) {
@@ -17,19 +17,23 @@ const renderDate = (date: number) => {
   }
 };
 
-export const MessageList = ({
-  className,
-  messagesList,
-  initLastDay = 0,
-}: Props) => {
-  lastDay = initLastDay;
+let lastUserId: TUserId = '';
+const renderMessage = (msg: IMessage) => {
+  const isSameUser: boolean = msg.user.id === lastUserId;
+  if (!isSameUser) lastUserId = msg.user.id;
+  return <Message {...msg} short={isSameUser} />;
+};
+
+export const MessageList = ({ className, messagesList }: Props) => {
+  lastDay = 0;
+  lastUserId = '';
 
   return (
     <div className={`${className} message-list`}>
       {messagesList.map((msg: IMessage) => (
         <React.Fragment key={genKey()}>
           {renderDate(msg.message.date)}
-          <Message key={msg.message.id} {...msg} />
+          {renderMessage(msg)}
         </React.Fragment>
       ))}
     </div>

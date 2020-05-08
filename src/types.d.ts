@@ -1,1 +1,69 @@
-// Global types
+// ? Возможно это плохая практика и с ростом проекта этот файл будет огромным
+// в таком случае эти типы необходимо перенести ближе к компоненту-родителю
+// в ткущем состоянии это Chat
+
+// Messages
+
+export type TUserId = string;
+export type TMessageId = string;
+
+export interface IUser {
+  id: TUserId;
+  name: string;
+  avatar: string;
+}
+
+export interface IMessageContent {
+  id: TMessageId;
+  date: number;
+  content: string;
+}
+
+export interface IMessage {
+  user: IUser;
+  message: IMessageContent;
+}
+
+export type TMessagesList = IMessage[];
+
+// Channels
+
+export type TChannelId = string;
+
+export interface ILastMessage {
+  userName: string;
+  text: string;
+  date: number;
+}
+
+export interface IChannel {
+  id: TChannelId;
+  title: string;
+  avatar: string;
+  lastMessage?: ILastMessage;
+}
+
+export type TChannelsList = IChannel[];
+
+// Снипет для типов компонента
+
+// личные пропсы компонента
+// interface OwnProps {}
+
+// состояние-пропсы компонента
+// interface StateProps {}
+
+// пути роута в компоненте
+// interface PathProps {}
+
+// дополнительные пропсы от HOC
+// interface HOCProps {}
+
+// стандартные пропсы от реакта
+// события / атрибуты
+
+// итоговые просы
+// export type Props = OwnProps & StateProps & HOCProps & RouteComponentProps<PathProps>;
+
+// состояние компонента
+// export interface State {}

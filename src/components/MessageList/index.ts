@@ -1,4 +1,6 @@
-import { memo } from 'react';
 import { MessageList as MessageListComponent } from './MessageList';
 
-export const MessageList = memo(MessageListComponent);
+import { memo } from 'react';
+import { withLogger } from '../../containers/logger';
+
+export const MessageList = withLogger(memo(MessageListComponent));

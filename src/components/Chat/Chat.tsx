@@ -1,28 +1,20 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
+import { ChannelList } from '../ChannelList';
+import { MessageList } from '../MessageList';
 import './Chat.scss';
 
 import * as channelsAPI from '../../api/channels';
 import * as messagesAPI from '../../api/messages';
 
-import { ChannelList } from '../ChannelList';
-import { MessageList } from '../MessageList';
+import { Props, State } from './types';
+import { TChannelId } from '../../types';
 
-import { IChatProps, IChatState } from './types';
-import { TChannelId } from '../Channel/types';
-import { TChannelsList } from '../ChannelList/types';
-
-export class Chat extends Component<IChatProps, IChatState> {
-  constructor(props: IChatProps) {
-    super(props);
-
-    this.setChannels = this.setChannels.bind(this);
-    this.setMessages = this.setMessages.bind(this);
-  }
-
-  state: Readonly<IChatState> = {
+export class Chat extends Component<Props, State> {
+  state: Readonly<State> = {
     activeChannelId: '',
     channels: [],
-    messages: []
+    messages: [],
   };
 
   async componentDidMount() {

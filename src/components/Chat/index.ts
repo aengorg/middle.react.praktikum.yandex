@@ -1,3 +1,6 @@
-import { Chat } from './Chat';
+import { Chat as ChatComponent } from './Chat';
 
-export { Chat };
+import { withRouter } from 'react-router';
+import { withLogger } from '../../containers/logger';
+
+export const Chat = withRouter(withLogger(ChatComponent));

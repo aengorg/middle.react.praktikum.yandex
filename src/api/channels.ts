@@ -5,7 +5,7 @@
 // import { API_URL } from '../constants';
 // import { http, IHttpResponse } from '../utils/http';
 
-import { TChannelsList } from '../components/ChannelList/types';
+import { TChannelsList } from '../types';
 
 import testChannels from './static/channels.json';
 

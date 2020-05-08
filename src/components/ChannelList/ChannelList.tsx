@@ -14,7 +14,10 @@ export const ChannelList = ({
   className = '',
 }: Props) => {
   const sortedChannelsList: TChannelsList = channelsList.sort(
-    a.lastMessage && b.lastMessage ? b.lastMessage.date - a.lastMessage.date : 1
+    (a: IChannel, b: IChannel) =>
+      a.lastMessage && b.lastMessage
+        ? b.lastMessage.date - a.lastMessage.date
+        : 1
   );
 
   return (

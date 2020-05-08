@@ -8,16 +8,22 @@ import { DateSeparator } from '../Message/DateSeparator';
 import { IMessage } from '../../types';
 import { Props } from './types';
 
-let currentDay: number = 0;
+let lastDay = 0;
 const renderDate = (date: number) => {
   let day: number = new Date(date).getDate();
-  if (day !== currentDay) {
-    currentDay = day;
+  if (day !== lastDay) {
+    lastDay = day;
     return <DateSeparator key={genKey()} date={date} />;
   }
 };
 
-export const MessageList = ({ className, messagesList }: IMessageListProps) => {
+export const MessageList = ({
+  className,
+  messagesList,
+  initLastDay = 0,
+}: Props) => {
+  lastDay = initLastDay;
+
   return (
     <div className={`${className} message-list`}>
       {messagesList.map((msg: IMessage) => (

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ChannelList.scss';
 
 import { Channel } from '../Channel';
@@ -19,13 +20,15 @@ export const ChannelList = ({
   return (
     <div className={`${className} channel-list`}>
       {sortedChannelsList.map((channel: IChannel) => (
-        <Channel
-          {...channel}
-          key={channel.id}
-          isSelected={activeChannelId === channel.id}
-          onChannelChange={onChannelChange}
+        <Link to={`/chat/${channel.id}`} key={channel.id}>
+          <Channel
+            {...channel}
+            key={channel.id}
+            isSelected={activeChannelId === channel.id}
+            onChannelChange={onChannelChange}
             className="channel-list__channel"
           />
+        </Link>
       ))}
     </div>
   );

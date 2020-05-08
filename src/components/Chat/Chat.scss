@@ -1,7 +1,27 @@
 .chat {
   display: flex;
+  flex-direction: column;
   overflow: hidden;
   width: 1200px;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    background-color: var(--nord15);
+  }
+
+  &__body {
+    display: flex;
+    overflow: hidden;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    background-color: var(--nord10);
+  }
 
   &__channel-list {
     max-width: 400px;
@@ -11,6 +31,7 @@
   }
 
   &__message-list {
+    width: 100%;
     background-color: var(--nord6);
     overflow-y: auto;
     overflow-x: hidden;
@@ -20,7 +41,7 @@
 @media (max-width: 400px) {
   .chat {
     &__channel-list {
-      max-width: 70px;
+      max-width: 50px;
     }
   }
 }

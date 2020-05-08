@@ -1,8 +1,8 @@
 .channel {
   display: flex;
   justify-content: flex-start;
-  height: 90px;
-  padding: 10px;
+  height: 50px;
+  padding: 5px;
   cursor: pointer;
   border-bottom: 1px solid var(--nord4);
 
@@ -34,11 +34,11 @@
   &__title {
     margin-right: 10px;
     white-space: nowrap;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   &__user-name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--nord10);
   }
 
@@ -61,10 +61,4 @@
 
 .channel:hover {
   background-color: var(--nord6);
-}
-
-@media (max-width: 400px) {
-  .channel {
-    height: 70px;
-  }
 }

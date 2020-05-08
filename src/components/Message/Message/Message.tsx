@@ -4,9 +4,9 @@ import './Message.scss';
 import { formatTime } from '../../../utils/format';
 import { Avatar } from '../../UI/Avatar';
 
-import { IMessageProps } from './types';
+import { Props } from './types';
 
-export const Message = ({ message, user }: IMessageProps) => {
+export const Message = ({ message, user }: Props) => {
   const time: string = formatTime(message.date);
 
   return (

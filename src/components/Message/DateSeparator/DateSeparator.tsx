@@ -3,14 +3,14 @@ import './DateSeparator.scss';
 
 import { formatDateTextRU } from '../../../utils/format';
 
-import { IDateSeparatorProps } from './types';
+import { Props } from './types';
 
-export const DateSeparator = ({ date }: IDateSeparatorProps) => {
+export const DateSeparator = ({ date }: Props) => {
   const formattedDate: string = formatDateTextRU(date);
 
   return (
-    <div className='date'>
-      <span className='date__text'>{formattedDate}</span>
+    <div className="date">
+      <span className="date__text">{formattedDate}</span>
     </div>
   );
 };

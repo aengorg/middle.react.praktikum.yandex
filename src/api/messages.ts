@@ -4,8 +4,7 @@
 
 // import { API_URL } from '../constants';
 // import { http, IHttpResponse } from '../utils/http';
-import { TChannelId } from '../components/Channel/types';
-import { TMessagesList } from '../components/MessageList/types';
+import { TChannelId, TMessagesList } from '../types';
 
 import testMessages1 from './static/messages-1.json';
 import testMessages2 from './static/messages-2.json';

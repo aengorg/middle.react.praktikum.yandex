@@ -1,9 +1,10 @@
-import { IChannel, TChannelId } from '../Channel/types';
+import { TChannelId, TChannelsList } from '../../types';
 
-export type TChannelsList = IChannel[];
-export interface IChannelListProps {
+interface OwnProps {
   activeChannelId: TChannelId;
   channelsList: TChannelsList;
   onChannelChange(TChannelId: TChannelId): void;
   className?: string;
 }
+
+export type Props = OwnProps;

@@ -3,16 +3,16 @@ import './ChannelList.scss';
 
 import { Channel } from '../Channel';
 
-import { IChannel } from '../Channel/types';
-import { TChannelsList, IChannelListProps } from './types';
+import { Props } from './types';
+import { IChannel, TChannelsList } from '../../types';
 
 export const ChannelList = ({
   activeChannelId,
   channelsList,
   onChannelChange,
-  className = ''
-}: IChannelListProps) => {
-  const sortedChannelsList: TChannelsList = channelsList.sort((a: IChannel, b: IChannel) =>
+  className = '',
+}: Props) => {
+  const sortedChannelsList: TChannelsList = channelsList.sort(
     a.lastMessage && b.lastMessage ? b.lastMessage.date - a.lastMessage.date : 1
   );
 

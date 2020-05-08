@@ -5,8 +5,8 @@ import { genKey } from '../../utils/generation';
 import { Message } from '../Message/Message';
 import { DateSeparator } from '../Message/DateSeparator';
 
-import { IMessage } from '../Message/Message/types';
-import { IMessageListProps } from './types';
+import { IMessage } from '../../types';
+import { Props } from './types';
 
 let currentDay: number = 0;
 const renderDate = (date: number) => {

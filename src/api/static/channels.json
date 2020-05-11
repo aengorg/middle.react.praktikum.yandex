@@ -2,41 +2,51 @@
   {
     "id": "0",
     "avatar": "https://picsum.photos/id/234/70/70",
-    "title": "Brooklyn Cooper",
+    "title": "Chicago",
     "lastMessage": {
-      "userName": "Margartta",
-      "text": "Список значений слова или словосочетания со ссылками на соответствующие статьи.",
+      "userName": "",
+      "text": "",
       "date": 1587000328094
     }
   },
   {
     "id": "1",
     "avatar": "https://picsum.photos/id/236/70/70",
-    "title": "Preact",
+    "title": "Los-Angeles",
     "lastMessage": {
-      "userName": "Чепалино",
-      "text": "Дмитрий напиши в слай",
+      "userName": "",
+      "text": "",
       "date": 1587735314570
     }
   },
   {
     "id": "2",
     "avatar": "https://picsum.photos/id/235/70/70",
-    "title": "Harold Howard",
+    "title": "New-York",
     "lastMessage": {
-      "userName": "Твистер",
-      "text": "hi",
+      "userName": "",
+      "text": "",
       "date": 1587235302641
     }
   },
   {
     "id": "3",
     "avatar": "https://picsum.photos/id/231/70/70",
-    "title": "Vuest",
+    "title": "San Francisco",
     "lastMessage": {
-      "userName": "Alexey",
-      "text": "А можно текст задания на экран?",
+      "userName": "",
+      "text": "",
       "date": 1587235302641
+    }
+  },
+  {
+    "id": "4",
+    "avatar": "https://picsum.photos/id/230/70/70",
+    "title": "Washington",
+    "lastMessage": {
+      "userName": "",
+      "text": "",
+      "date": 1587234302641
     }
   },
   {

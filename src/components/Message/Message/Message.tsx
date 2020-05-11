@@ -24,7 +24,8 @@ export const Message = ({ message, user, short = false }: Props) => {
         {!short ? (
           <span className="message__user-name">{user.name}</span>
         ) : null}
-        <span>{message.content}</span>
+
+        <span dangerouslySetInnerHTML={{__html:message.content.replace(/\n/g, '<br/>')}} />
       </div>
       <span className="message__time">{time}</span>
     </div>

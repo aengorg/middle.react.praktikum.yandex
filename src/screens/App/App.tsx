@@ -1,18 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import './App.scss';
 
+import { withRouter } from 'react-router';
 import { Chat } from '../../components/Chat';
 
 function App() {
   return (
-    <Router>
-      <div className="app">
+    <div className="app">
+      <Switch>
+        <Redirect exact from="/" to="/chat" />
         <Route path="/chat/:channelId?" component={Chat} />
-      </div>
-    </Router>
+      </Switch>
+    </div>
   );
 }
 
-export default App;
+export default withRouter(App);

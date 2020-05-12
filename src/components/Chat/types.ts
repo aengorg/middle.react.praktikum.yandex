@@ -1,13 +1,16 @@
 import { RouteComponentProps } from 'react-router';
 import { TMessagesList, TChannelId, TChannelsList } from '../../types';
+import { LocalizationProp } from '../../containers/localization';
 
 interface OwnProps {}
 
-interface PathProps {
+interface RouteProps {
   channelId: TChannelId;
 }
 
-export type Props = OwnProps & RouteComponentProps<PathProps>;
+// ? не получчилось добавить тип в хоке пришлось указывать тут
+// LocalizationProp
+export type Props = OwnProps & RouteComponentProps<RouteProps> & LocalizationProp;
 
 export interface State {
   activeChannelId: TChannelId;

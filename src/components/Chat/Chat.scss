@@ -41,28 +41,21 @@
     }
   }
 
-  &__top {
+  &__message-search {
+    flex-shrink: 0;
     padding: 10px;
     border-bottom: 1px solid var(--nord4);
   }
 
-  &__middle {
+  &__message-list {
     height: 100%;
-    overflow: auto;
-    display: flex;
-    justify-content: flex-start;
   }
 
-  &__bottom {
+  &__text-field {
+    flex-shrink: 0;
     padding: 10px;
     border-top: 1px solid var(--nord4);
   }
-
-  // &__message-search {
-  // }
-
-  // &__message-list {
-  // }
 }
 
 @media (max-width: 400px) {

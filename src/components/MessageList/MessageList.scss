@@ -1,4 +1,10 @@
 .message-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+
   &__chat-input {
     padding: 50px;
   }
@@ -6,7 +12,7 @@
 
 .message-list:empty {
   display: flex;
-  width: 100%;
+  flex-direction: row;
   justify-content: center;
   padding-top: 5%;
 }

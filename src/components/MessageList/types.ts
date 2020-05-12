@@ -6,3 +6,5 @@ interface OwnProps {
 }
 
 export type Props = OwnProps;
+
+export interface State {}

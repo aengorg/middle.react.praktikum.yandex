@@ -1,0 +1,32 @@
+.chat-input {
+  display: flex;
+
+  &__textarea {
+    width: 100%;
+    border: 1px solid var(--nord4);
+    outline: none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 4px;
+    resize: none;
+  }
+
+  &__button-send {
+    display: flex;
+    height: 100%;
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.button-send__icon-send {
+  fill: var(--nord8);
+}
+
+.button-send__icon-send:hover {
+  fill: var(--nord10);
+}

@@ -1,41 +1,56 @@
-import React from 'react';
+import React, { Component, Fragment } from 'react';
 import './MessageList.scss';
+
+import { ONE_DAY } from '../../constants';
 
 import { genKey } from '../../utils/generation';
 import { Message } from '../Message/Message';
 import { DateSeparator } from '../Message/DateSeparator';
 
-import { IMessage, TUserId } from '../../types';
-import { Props } from './types';
+import { IMessage } from '../../types';
+import { Props, State } from './types';
 
-let lastDay: number = 0;
-const renderDate = (date: number) => {
-  let day: number = new Date(date).getDate();
-  if (day !== lastDay) {
-    lastDay = day;
-    return <DateSeparator key={genKey()} date={date} />;
+export class MessageList extends Component<Props, State> {
+  private refMessagesList: React.RefObject<HTMLDivElement> = React.createRef();
+
+  private renderDate = (currentMsg: IMessage, lastMsg: IMessage | undefined) => {
+    if (lastMsg) {
+      const delta: Number = Math.abs(currentMsg.message.date - lastMsg.message.date);
+      if (delta < ONE_DAY) return null;
+    }
+    return <DateSeparator date={currentMsg.message.date} />;
+  };
+
+  private renderMessage = (currentMsg: IMessage, lastMsg: IMessage | undefined) => {
+    const isSameUser: boolean = lastMsg !== undefined && currentMsg.user.id === lastMsg.user.id;
+    return <Message {...currentMsg} short={isSameUser} />;
+  };
+
+  private scrollBottom(): void {
+    const scrollContainer = this.refMessagesList.current;
+    scrollContainer &&
+      scrollContainer.scrollTo({
+        left: 0,
+        top: scrollContainer.scrollHeight,
+      });
   }
-};
 
-let lastUserId: TUserId = '';
-const renderMessage = (msg: IMessage) => {
-  const isSameUser: boolean = msg.user.id === lastUserId;
-  if (!isSameUser) lastUserId = msg.user.id;
-  return <Message {...msg} short={isSameUser} />;
-};
+  public componentDidUpdate() {
+    this.scrollBottom();
+  }
 
-export const MessageList = ({ className, messagesList }: Props) => {
-  lastDay = 0;
-  lastUserId = '';
+  public render() {
+    const { messagesList, className } = this.props;
 
-  return (
-    <div className={`${className} message-list`}>
-      {messagesList.map((msg: IMessage) => (
-        <React.Fragment key={genKey()}>
-          {renderDate(msg.message.date)}
-          {renderMessage(msg)}
-        </React.Fragment>
-      ))}
-    </div>
-  );
-};
+    return (
+      <div className={`${className} message-list`} ref={this.refMessagesList}>
+        {messagesList.map((msg: IMessage, i: number) => (
+          <Fragment key={genKey()}>
+            {this.renderDate(msg, messagesList[i - 1])}
+            {this.renderMessage(msg, messagesList[i - 1])}
+          </Fragment>
+        ))}
+      </div>
+    );
+  }
+}

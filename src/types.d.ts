@@ -54,7 +54,7 @@ export type TChannelsList = IChannel[];
 // interface StateProps {}
 
 // пути роута в компоненте
-// interface PathProps {}
+// interface RouteProps {}
 
 // дополнительные пропсы от HOC
 // interface HOCProps {}
@@ -63,7 +63,7 @@ export type TChannelsList = IChannel[];
 // события / атрибуты
 
 // итоговые просы
-// export type Props = OwnProps & StateProps & HOCProps & RouteComponentProps<PathProps>;
+// export type Props = OwnProps & StateProps & HOCProps & RouteComponentProps<RouteProps>;
 
 // состояние компонента
 // export interface State {}

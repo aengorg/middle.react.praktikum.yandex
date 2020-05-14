@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { ChannelList } from '../ChannelList';
-import { MessageList } from '../MessageList';
-import { ChatInput } from '../ChatInput';
+import { ChannelList } from '../../components/ChannelList';
+import { MessageList } from '../../components/MessageList';
+import { ChatInput } from '../../components/ChatInput';
+import { UserProfile } from '../../components/UserProfile';
 import './Chat.scss';
+
+import { genKey } from '../../utils/generation';
 
 import channelsAPI from '../../api/channels';
 import messagesAPI from '../../api/messages';
@@ -18,42 +21,59 @@ export class Chat extends Component<Props, State> {
     messages: [],
   };
 
-  async componentDidMount() {
-    this.setChannels();
+  public async componentDidMount() {
     const { channelId } = this.props.match.params;
+    this.loadChannels();
 
     if (channelId) {
-      this.setMessages(channelId);
+      this.loadMessages(channelId);
     }
   }
 
-  private setChannels = async (): Promise<void> => {
-    setTimeout(async () => {
-      const channels = await channelsAPI.getChannels();
+  public componentDidUpdate(prevProps: Props): void {
+    const oldChannelId = prevProps.match.params.channelId;
+    const newChannelId = this.props.match.params.channelId;
+
+    if (oldChannelId !== newChannelId) {
       this.setState({
-        channels: channels,
+        activeChannelId: newChannelId,
       });
-    }, 1000);
+      this.loadMessages(newChannelId);
+    }
+  }
+
+  private loadChannels = async (): Promise<void> => {
+    const { user } = this.props;
+
+    const channels = await channelsAPI.getChannels(user.id);
+    this.setState({
+      channels: channels,
+    });
   };
 
-  private setMessages = async (channelId: TChannelId): Promise<void> => {
-    setTimeout(async () => {
-      const messages = await messagesAPI.getMessages(channelId);
-      if (messages !== undefined) {
-        this.setState({
-          activeChannelId: channelId,
-          messages: messages,
-        });
+  private loadMessages = async (channelId: TChannelId): Promise<void> => {
+    const { history } = this.props;
 
-        if (messages.length) {
-          const lastMessage = messages[messages.length - 1];
-          this.updateLastMessage(channelId, lastMessage);
-        }
+    const messages = await messagesAPI.getMessages(channelId);
+    if (messages !== undefined) {
+      this.setState({
+        activeChannelId: channelId,
+        messages: messages,
+      });
+
+      if (messages.length) {
+        const lastMessage = messages[messages.length - 1];
+        this.updateLastMessage(channelId, lastMessage);
       }
-    }, 1500);
+    } else {
+      history.replace('/');
+    }
   };
 
-  private updateLastMessage = (channelId: TChannelId, message: IMessage): void => {
+  private updateLastMessage = (
+    channelId: TChannelId,
+    message: IMessage
+  ): void => {
     const lastMessage: ILastMessage = {
       userName: message.user.name,
       date: message.message.date,
@@ -73,15 +93,12 @@ export class Chat extends Component<Props, State> {
   private addMessage = (text: string): void => {
     // при отправке на сервер мы должны указать activeChannelId
     const { activeChannelId } = this.state;
+    const { user } = this.props;
 
     const newMessage: IMessage = {
-      user: {
-        id: '999',
-        name: 'Me',
-        avatar: '',
-      },
+      user,
       message: {
-        id: '',
+        id: genKey(),
         date: Date.now(),
         content: text,
       },
@@ -98,7 +115,7 @@ export class Chat extends Component<Props, State> {
 
   public render() {
     const { channels, messages, activeChannelId } = this.state;
-    const { localization } = this.props;
+    const { user, logoutUser, localization } = this.props;
 
     return (
       <div className="chat">
@@ -108,7 +125,12 @@ export class Chat extends Component<Props, State> {
               className="chat__channel-list"
               channelsList={channels}
               activeChannelId={activeChannelId}
-              onChannelChange={this.setMessages}
+              onChannelChange={this.loadMessages}
+            />
+            <UserProfile
+              className="chat__user-profile"
+              logoutUser={logoutUser}
+              user={user}
             />
           </Route>
         </div>
@@ -116,12 +138,20 @@ export class Chat extends Component<Props, State> {
           <Route path="/chat/:channelId">
             <div className="chat__main">
               <div className="chat__message-search">{localization.search}</div>
-              <MessageList className="chat__message-list" messagesList={messages} />
-              <ChatInput className="chat__text-field" sendMessage={this.addMessage} />
+              <MessageList
+                className="chat__message-list"
+                messagesList={messages}
+              />
+              <ChatInput
+                className="chat__text-field"
+                sendMessage={this.addMessage}
+              />
             </div>
           </Route>
           <Route path="/chat">
-            <div className="chat__main--empty">{localization.selectChannel}</div>
+            <div className="chat__main--empty">
+              {localization.selectChannel}
+            </div>
           </Route>
         </Switch>
       </div>

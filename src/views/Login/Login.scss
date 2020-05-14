@@ -1,0 +1,98 @@
+.login {
+  width: 25vw;
+  max-width: 350px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px 40px 40px;
+  border-radius: 3px;
+  margin-top: 10%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+
+  &__icon {
+    width: 50px;
+    height: 50px;
+    fill: var(--nord9);
+    margin-bottom: 20px;
+  }
+
+  &__errors {
+    width: 100%;
+    border: 1px solid var(--nord11);
+    border-radius: 3px;
+    padding: 10px;
+    color: var(--nord11);
+    margin-bottom: 20px;
+  }
+
+  &__errors li {
+    margin-left: 20px;
+  }
+
+  &__label {
+    color: var(--nord3);
+    width: 100%;
+    text-align: left;
+  }
+
+  &__name {
+    margin-bottom: 20px;
+  }
+
+  &__pass {
+    margin-bottom: 20px;
+  }
+
+  &__button--login {
+    margin-bottom: 20px;
+  }
+
+  &__button--registration {
+    font-weight: normal;
+    background-color: var(--nord6);
+    color: var(--nord3);
+  }
+
+  &__button--registration:hover {
+    background-color: var(--nord5);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+}
+
+.animation-shake {
+  animation-name: shake;
+  animation-duration: 0.3s;
+  transform-origin: 50% 50%;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+// @media () {
+//   .login {
+//     width: 25vw;
+//   }
+// }

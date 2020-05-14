@@ -19,8 +19,8 @@ export class Chat extends Component<Props, State> {
   };
 
   public async componentDidMount() {
-    this.loadChannels();
     const { channelId } = this.props.match.params;
+    this.loadChannels();
 
     if (channelId) {
       this.loadMessages(channelId);
@@ -40,7 +40,9 @@ export class Chat extends Component<Props, State> {
   }
 
   private loadChannels = async (): Promise<void> => {
-    const channels = await channelsAPI.getChannels();
+    const { user } = this.props;
+
+    const channels = await channelsAPI.getChannels(user.id);
     this.setState({
       channels: channels,
     });
@@ -113,7 +115,7 @@ export class Chat extends Component<Props, State> {
 
   public render() {
     const { channels, messages, activeChannelId } = this.state;
-    const { localization } = this.props;
+    const { user, logoutUser, localization } = this.props;
 
     return (
       <div className="chat">
@@ -125,6 +127,7 @@ export class Chat extends Component<Props, State> {
               activeChannelId={activeChannelId}
               onChannelChange={this.loadMessages}
             />
+            <div>{JSON.stringify(user)}</div>
           </Route>
         </div>
         <Switch>

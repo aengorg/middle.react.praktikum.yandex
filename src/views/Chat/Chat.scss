@@ -1,7 +1,7 @@
 .chat {
   display: flex;
   overflow: hidden;
-  width: 1200px;
+  max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
   background-color: white;
@@ -60,10 +60,10 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .chat {
     &__sidebar {
-      max-width: 60px;
+      max-width: 50px;
     }
   }
 }

@@ -1,5 +1,20 @@
 {
   "selectChannel": "Select a chat",
   "search": "Search",
-  "send": "Send message"
+  "send": "Send message",
+  "page404": "404",
+  "goHome": "Go to home",
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "rules": {
+    "requiredUser": "Required uesername!",
+    "requiredPassword": "Required password!",
+    "userDuplication": "userDuplication"
+  },
+  "errors": {
+    "login": "Username or password incorrect!",
+    "omg500": "omg500"
+  },
+  "registration": "Registration"
 }

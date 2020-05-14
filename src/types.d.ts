@@ -1,17 +1,31 @@
 // ? Возможно это плохая практика и с ростом проекта этот файл будет огромным
 // в таком случае эти типы необходимо перенести ближе к компоненту-родителю
-// в ткущем состоянии это Chat
+// в ткущем состоянии это Chat;
 
-// Messages
-
+// Users
 export type TUserId = string;
-export type TMessageId = string;
 
 export interface IUser {
   id: TUserId;
   name: string;
   avatar: string;
 }
+
+export interface IUserSave extends IUser {
+  password: string;
+}
+
+export interface ILoginUser {
+  username: string;
+  password: string;
+}
+
+export type TUsers = IUser[];
+export type TUsersSave = IUserSave[];
+
+// Messages
+
+export type TMessageId = string;
 
 export interface IMessageContent {
   id: TMessageId;

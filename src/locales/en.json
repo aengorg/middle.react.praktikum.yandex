@@ -5,6 +5,7 @@
   "page404": "404",
   "goHome": "Go to home",
   "login": "Login",
+  "logout": "Logout",
   "username": "Username",
   "password": "Password",
   "rules": {

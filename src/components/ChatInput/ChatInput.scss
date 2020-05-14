@@ -24,9 +24,9 @@
 }
 
 .button-send__icon-send {
-  fill: var(--nord8);
-}
+  fill: var(--nord9);
 
-.button-send__icon-send:hover {
-  fill: var(--nord10);
+  &:hover {
+    fill: var(--nord10);
+  }
 }

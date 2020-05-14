@@ -3,7 +3,10 @@ import { Switch, Route } from 'react-router-dom';
 import { ChannelList } from '../../components/ChannelList';
 import { MessageList } from '../../components/MessageList';
 import { ChatInput } from '../../components/ChatInput';
+import { UserProfile } from '../../components/UserProfile';
 import './Chat.scss';
+
+import { genKey } from '../../utils/generation';
 
 import channelsAPI from '../../api/channels';
 import messagesAPI from '../../api/messages';
@@ -90,15 +93,12 @@ export class Chat extends Component<Props, State> {
   private addMessage = (text: string): void => {
     // при отправке на сервер мы должны указать activeChannelId
     const { activeChannelId } = this.state;
+    const { user } = this.props;
 
     const newMessage: IMessage = {
-      user: {
-        id: '999',
-        name: 'Me',
-        avatar: '',
-      },
+      user,
       message: {
-        id: '',
+        id: genKey(),
         date: Date.now(),
         content: text,
       },
@@ -127,7 +127,11 @@ export class Chat extends Component<Props, State> {
               activeChannelId={activeChannelId}
               onChannelChange={this.loadMessages}
             />
-            <div>{JSON.stringify(user)}</div>
+            <UserProfile
+              className="chat__user-profile"
+              logoutUser={logoutUser}
+              user={user}
+            />
           </Route>
         </div>
         <Switch>

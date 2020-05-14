@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { ChannelList } from '../ChannelList';
-import { MessageList } from '../MessageList';
-import { ChatInput } from '../ChatInput';
+import { ChannelList } from '../../components/ChannelList';
+import { MessageList } from '../../components/MessageList';
+import { ChatInput } from '../../components/ChatInput';
 import './Chat.scss';
 
 import channelsAPI from '../../api/channels';
@@ -18,42 +18,57 @@ export class Chat extends Component<Props, State> {
     messages: [],
   };
 
-  async componentDidMount() {
-    this.setChannels();
+  public async componentDidMount() {
+    this.loadChannels();
     const { channelId } = this.props.match.params;
 
     if (channelId) {
-      this.setMessages(channelId);
+      this.loadMessages(channelId);
     }
   }
 
-  private setChannels = async (): Promise<void> => {
-    setTimeout(async () => {
-      const channels = await channelsAPI.getChannels();
+  public componentDidUpdate(prevProps: Props): void {
+    const oldChannelId = prevProps.match.params.channelId;
+    const newChannelId = this.props.match.params.channelId;
+
+    if (oldChannelId !== newChannelId) {
       this.setState({
-        channels: channels,
+        activeChannelId: newChannelId,
       });
-    }, 1000);
+      this.loadMessages(newChannelId);
+    }
+  }
+
+  private loadChannels = async (): Promise<void> => {
+    const channels = await channelsAPI.getChannels();
+    this.setState({
+      channels: channels,
+    });
   };
 
-  private setMessages = async (channelId: TChannelId): Promise<void> => {
-    setTimeout(async () => {
-      const messages = await messagesAPI.getMessages(channelId);
-      if (messages !== undefined) {
-        this.setState({
-          activeChannelId: channelId,
-          messages: messages,
-        });
+  private loadMessages = async (channelId: TChannelId): Promise<void> => {
+    const { history } = this.props;
 
-        if (messages.length) {
-          const lastMessage = messages[messages.length - 1];
-          this.updateLastMessage(channelId, lastMessage);
-        }
+    const messages = await messagesAPI.getMessages(channelId);
+    if (messages !== undefined) {
+      this.setState({
+        activeChannelId: channelId,
+        messages: messages,
+      });
+
+      if (messages.length) {
+        const lastMessage = messages[messages.length - 1];
+        this.updateLastMessage(channelId, lastMessage);
       }
-    }, 1500);
+    } else {
+      history.replace('/');
+    }
   };
 
-  private updateLastMessage = (channelId: TChannelId, message: IMessage): void => {
+  private updateLastMessage = (
+    channelId: TChannelId,
+    message: IMessage
+  ): void => {
     const lastMessage: ILastMessage = {
       userName: message.user.name,
       date: message.message.date,
@@ -108,7 +123,7 @@ export class Chat extends Component<Props, State> {
               className="chat__channel-list"
               channelsList={channels}
               activeChannelId={activeChannelId}
-              onChannelChange={this.setMessages}
+              onChannelChange={this.loadMessages}
             />
           </Route>
         </div>
@@ -116,12 +131,20 @@ export class Chat extends Component<Props, State> {
           <Route path="/chat/:channelId">
             <div className="chat__main">
               <div className="chat__message-search">{localization.search}</div>
-              <MessageList className="chat__message-list" messagesList={messages} />
-              <ChatInput className="chat__text-field" sendMessage={this.addMessage} />
+              <MessageList
+                className="chat__message-list"
+                messagesList={messages}
+              />
+              <ChatInput
+                className="chat__text-field"
+                sendMessage={this.addMessage}
+              />
             </div>
           </Route>
           <Route path="/chat">
-            <div className="chat__main--empty">{localization.selectChannel}</div>
+            <div className="chat__main--empty">
+              {localization.selectChannel}
+            </div>
           </Route>
         </Switch>
       </div>

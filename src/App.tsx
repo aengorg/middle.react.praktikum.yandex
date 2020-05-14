@@ -1,24 +1,65 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import { Chat } from './views/Chat';
 import { ErrorPage } from './views/ErrorPage';
-import { Home } from './views/Home';
 import { Login } from './views/Login';
+import { Registration } from './views/Registration';
 
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/chat/:channelId?" component={Chat} />
-        <Route path="/registration" />
-        <Route path="/login" component={Login} />
-        <Route component={ErrorPage} />
-      </Switch>
-    </Router>
-  );
+import { IUser } from './types';
+
+interface State {
+  user: IUser;
 }
 
-export default App;
+export class App extends Component<{}, State> {
+  public state: Readonly<State> = {
+    user: {
+      id: '',
+      name: '',
+      avatar: '',
+    },
+  };
+
+  private loginUser = (user: IUser): void => {
+    this.setState({
+      user: user,
+    });
+  };
+
+  private logoutUser = (): void => {
+    this.setState({
+      user: {
+        id: '',
+        name: '',
+        avatar: '',
+      },
+    });
+  };
+
+  render() {
+    const { user } = this.state;
+    return (
+      <Router>
+        <Switch>
+          <Redirect exact from="/" to="/login" />
+          <Route path="/chat/:channelId?">
+            {user.id ? (
+              <Chat logoutUser={this.logoutUser} user={user} />
+            ) : (
+              <Redirect to="/login" />
+            )}
+          </Route>
+          <Route path="/registration">
+            <Registration loginUser={this.loginUser} />
+          </Route>
+          <Route path="/login">
+            <Login loginUser={this.loginUser} />
+          </Route>
+          <Route component={ErrorPage} />
+        </Switch>
+      </Router>
+    );
+  }
+}

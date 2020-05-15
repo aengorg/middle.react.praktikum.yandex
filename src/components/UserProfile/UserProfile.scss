@@ -1,0 +1,41 @@
+.user-profile {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--nord4);
+
+  &__avatar {
+    margin-right: 10px;
+    width: 37px;
+    height: 37px;
+  }
+
+  &__logout-icon {
+    margin: 5px;
+    fill: var(--nord9);
+    cursor: pointer;
+    transform: rotate(180deg);
+
+    &:hover {
+      fill: var(--nord11);
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .user-profile {
+    &__avatar {
+      display: none;
+    }
+
+    &__name {
+      display: none;
+    }
+  }
+}

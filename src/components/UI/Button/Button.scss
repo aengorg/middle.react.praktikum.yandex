@@ -1,0 +1,22 @@
+.button {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--nord4);
+  border-radius: 3px;
+  background-color: var(--nord9);
+  color: var(--nord6);
+  font-weight: bold;
+  font-size: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 1px solid var(--nord8);
+  background-color: var(--nord10);
+}
+
+.button:focus {
+  background-color: var(--nord9);
+  border: 1px solid var(--nord10);
+}

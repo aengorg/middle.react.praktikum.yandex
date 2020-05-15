@@ -1,20 +1,9 @@
-export type TChannelId = string;
+import { TChannelId, IChannel } from '../../types';
 
-export interface ILastMessage {
-  userName: string;
-  text: string;
-  date: number;
-}
-
-export interface IChannel {
-  id: TChannelId;
-  title: string;
-  avatar: string;
-  lastMessage?: ILastMessage;
-}
-
-export interface IChannelProps extends IChannel {
+interface OwnProps {
   isSelected: boolean;
   onChannelChange(TChannelId: TChannelId): void;
   className?: string;
 }
+
+export type Props = OwnProps & IChannel;

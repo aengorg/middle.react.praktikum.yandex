@@ -1,0 +1,21 @@
+.text-field {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--nord4);
+  border-radius: 3px;
+  background-color: white;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.text-field:hover {
+  border: 1px solid var(--nord7);
+}
+
+.text-field:focus {
+  border: 1px solid var(--nord10);
+}
+
+.text-field::placeholder {
+  color: var(--nord4);
+}

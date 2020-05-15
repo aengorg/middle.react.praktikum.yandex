@@ -1,24 +1,9 @@
-export type TUserId = string;
-export type TMessageId = string;
+import { IUser, IMessageContent } from '../../../types';
 
-export interface IUser {
-  id: TUserId;
-  name: string;
-  avatar: string;
-}
-
-export interface IMessageContent {
-  id: TMessageId;
-  date: number;
-  content: string;
-}
-
-export interface IMessage {
+interface OwnProps {
   user: IUser;
+  short?: boolean;
   message: IMessageContent;
 }
 
-export interface IMessageProps {
-  message: IMessageContent;
-  user: IUser;
-}
+export type Props = OwnProps;

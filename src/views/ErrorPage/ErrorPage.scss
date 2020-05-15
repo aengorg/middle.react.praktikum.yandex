@@ -1,0 +1,26 @@
+.error-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--nord6);
+
+  &__text {
+    font-size: 8rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+    fill: var(--nord11);
+    width: 200px;
+    height: 200px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: var(--nord7);
+  }
+}

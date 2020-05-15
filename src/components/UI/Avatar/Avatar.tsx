@@ -1,8 +1,8 @@
 import React from 'react';
 import './Avatar.scss';
 
-import { IAvatarProps } from './types';
+import { Props } from './types';
 
-export const Avatar = ({ className = '', avatar, title }: IAvatarProps) => {
-  return <img className={className + ' avatar'} src={avatar} alt={title} />;
+export const Avatar = ({ className = '', avatar, title }: Props) => {
+  return <img className={`${className} avatar`} src={avatar} alt={title} />;
 };

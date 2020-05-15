@@ -13,7 +13,19 @@
   },
   {
     "user": {
-      "id": "0002",
+      "id": "0003",
+      "name": "Gregory",
+      "avatar": "https://i.pravatar.cc/70?img=3"
+    },
+    "message": {
+      "id": "0006",
+      "content": "Поколение Z, они же зумеры, — молодые люди, родившиеся с 1995 по 2010 год",
+      "date": 1587422502641
+    }
+  },
+  {
+    "user": {
+      "id": "0015",
       "name": "Tanya Pena",
       "avatar": "https://i.pravatar.cc/70?img=2"
     },
@@ -25,7 +37,7 @@
   },
   {
     "user": {
-      "id": "00015",
+      "id": "0015",
       "name": "Tanya Pena",
       "avatar": "https://i.pravatar.cc/70?img=2"
     },
@@ -37,7 +49,7 @@
   },
   {
     "user": {
-      "id": "00015",
+      "id": "00016",
       "name": "Margartta",
       "avatar": "https://i.pravatar.cc/70?img=5"
     },

@@ -1,33 +1,52 @@
 .message {
+  position: relative;
   display: flex;
-  padding: 10px;
+  padding: 5px;
+  word-break: break-all;
   background-color: white;
 
   &__avatar {
     flex-shrink: 0;
     margin-right: 10px;
+
+    &--hide {
+      flex-shrink: 0;
+      width: 50px;
+    }
   }
 
   &__body {
-    display: flex;
     width: 100%;
+    display: flex;
     flex-direction: column;
   }
 
   &__user-name {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--nord10);
   }
 
   &__time {
+    flex-shrink: 0;
+    margin-left: 10px;
     display: inline-block;
-    color: var(--nord3);
-    font-size: 1rem;
     text-align: right;
-    width: 100%;
+    color: var(--nord3);
   }
 }
 
-.message:hover {
-  background-color: var(--nord6);
-  outline: 1px solid var(--nord4);
+.message {
+  &--short {
+    padding-top: 0;
+  }
+}
+
+.message:hover::before {
+  content: '◤';
+  position: absolute;
+  font-size: 14px;
+  top: -6px;
+  left: 0;
+  color: var(--nord4);
 }

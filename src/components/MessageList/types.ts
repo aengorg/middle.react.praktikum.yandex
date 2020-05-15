@@ -1,7 +1,10 @@
-import { IMessage } from '../Message/Message/types';
+import { TMessagesList } from '../../types';
 
-export type TMessagesList = IMessage[];
-export interface IMessageListProps {
-  className: string;
+interface OwnProps {
   messagesList: TMessagesList;
+  className?: string;
 }
+
+export type Props = OwnProps;
+
+export interface State {}

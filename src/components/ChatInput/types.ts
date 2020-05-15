@@ -5,8 +5,6 @@ interface OwnProps {
   sendMessage(text: string): void;
 }
 
-// ? не получчилось добавить тип в хоке пришлось указывать тут
-// LocalizationProp
 export type Props = OwnProps & LocalizationProp;
 
 export interface State {

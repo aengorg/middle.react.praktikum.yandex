@@ -11,8 +11,6 @@ interface RouteProps {
   channelId: TChannelId;
 }
 
-// ? не получчилось добавить тип в хоке пришлось указывать тут
-// LocalizationProp
 export type Props = OwnProps &
   RouteComponentProps<RouteProps> &
   LocalizationProp;

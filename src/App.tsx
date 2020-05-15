@@ -42,8 +42,8 @@ export class App extends Component<{}, State> {
     const { user } = this.state;
     return (
       <Router>
+        <Redirect exact from="/" to="/login" />
         <Switch>
-          <Redirect exact from="/" to="/login" />
           <Route path="/chat/:channelId?">
             {user.id ? (
               <Chat logoutUser={this.logoutUser} user={user} />

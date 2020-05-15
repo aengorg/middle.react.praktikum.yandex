@@ -49,8 +49,7 @@ export class Registration extends Component<Props, State> {
   ): Promise<void> => {
     e.preventDefault();
 
-    const { errors } = this.props.localization;
-    const { history, loginUser } = this.props;
+    const { localization, history, loginUser } = this.props;
 
     this.resetErrors();
 
@@ -64,7 +63,7 @@ export class Registration extends Component<Props, State> {
       loginUser(approvedUser);
       history.replace('/chat');
     } else {
-      this.addError(errors.omg500);
+      this.addError(localization['errors.omg500']);
     }
   };
 
@@ -77,13 +76,14 @@ export class Registration extends Component<Props, State> {
   ): Promise<void> => {
     e.preventDefault();
     const { username } = this.state;
-    const { rules } = this.props.localization;
+    const { localization } = this.props;
 
     if (username) {
       const isUserDuplication = await UsersAPI.checkUser(username);
-      if (isUserDuplication) this.addError(rules.userDuplication);
+      if (isUserDuplication)
+        this.addError(localization['rules.userDuplication']);
     } else {
-      this.addError(rules.requiredUser);
+      this.addError(localization['rules.requiredUser']);
     }
   };
 
@@ -92,10 +92,10 @@ export class Registration extends Component<Props, State> {
   ): Promise<void> => {
     e.preventDefault();
     const { password } = this.state;
-    const { rules } = this.props.localization;
+    const { localization } = this.props;
 
     if (!password) {
-      this.addError(rules.requiredPassword);
+      this.addError(localization['rules.requiredPassword']);
     }
   };
 

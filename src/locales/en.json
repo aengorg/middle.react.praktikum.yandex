@@ -2,20 +2,16 @@
   "selectChannel": "Select a chat",
   "search": "Search",
   "send": "Send message",
-  "page404": "404",
+  "page404": "Not found",
   "goHome": "Go to home",
   "login": "Login",
   "logout": "Logout",
   "username": "Username",
   "password": "Password",
-  "rules": {
-    "requiredUser": "Required uesername!",
-    "requiredPassword": "Required password!",
-    "userDuplication": "userDuplication"
-  },
-  "errors": {
-    "login": "Username or password incorrect!",
-    "omg500": "omg500"
-  },
+  "rules.requiredUser": "Required uesername.",
+  "rules.requiredPassword": "Required password.",
+  "rules.userDuplication": "Username is not available.",
+  "errors.login": "Username or password incorrect!",
+  "errors.omg500": "Error 500",
   "registration": "Registration"
 }

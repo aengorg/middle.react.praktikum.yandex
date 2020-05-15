@@ -13,11 +13,8 @@ export const login = async (
     );
 
     if (user) {
-      const loginedUser: IUser = {
-        id: user.id,
-        name: user.name,
-        avatar: user.avatar,
-      };
+      delete user.password;
+      const loginedUser: IUser = user;
       return loginedUser;
     }
     return undefined;
@@ -32,17 +29,15 @@ export const registration = async (
 ): Promise<IUser | undefined> => {
   const key: string = genKey();
 
-  const saveUser: IUserSave = {
-    id: key,
-    name: user.username,
-    password: user.password,
-    avatar: 'https://i.pravatar.cc/70?img=55',
-  };
-
   const newUser: IUser = {
     id: key,
     name: user.username,
     avatar: 'https://i.pravatar.cc/70?img=55',
+  };
+
+  const saveUser: IUserSave = {
+    ...newUser,
+    password: user.password,
   };
 
   try {

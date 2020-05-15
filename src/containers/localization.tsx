@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import EN from '../locales/en.json';
 
-// ! TODO
-type ILocalization = any;
-
-type TLocalizations = {
-  en: ILocalization;
+type ILocalization = {
+  [key: string]: string;
 };
 
-// !
+type TLocalizations = {
+  [key: string]: ILocalization;
+};
+
 export interface LocalizationProp {
-  localization?: ILocalization;
+  localization: ILocalization;
 }
 
 const localizations: TLocalizations = {
@@ -19,12 +19,10 @@ const localizations: TLocalizations = {
 
 const currentLocalization: ILocalization = localizations['en'];
 
-export function withLocalization<P extends object>(
-  WrappedComponent: React.ComponentType<P>
+export function withLocalization<P>(
+  WrappedComponent: React.ComponentType<P & LocalizationProp>
 ) {
-  return class extends Component<P & LocalizationProp> {
-    render() {
-      return <WrappedComponent {...this.props} localization={currentLocalization} />;
-    }
-  };
+  return (props: P) => (
+    <WrappedComponent {...props} localization={currentLocalization} />
+  );
 }

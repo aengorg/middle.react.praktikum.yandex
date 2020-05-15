@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f56bad78.chunk.css",
+    "main.js": "./static/js/main.e85c4fa2.chunk.js",
+    "main.js.map": "./static/js/main.e85c4fa2.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7e58cb6f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7e58cb6f.js.map",
+    "static/js/2.01b72839.chunk.js": "./static/js/2.01b72839.chunk.js",
+    "static/js/2.01b72839.chunk.js.map": "./static/js/2.01b72839.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.6b2b8195efa68f3a1fd255a2701a9f5a.js": "./precache-manifest.6b2b8195efa68f3a1fd255a2701a9f5a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.f56bad78.chunk.css.map": "./static/css/main.f56bad78.chunk.css.map",
+    "static/js/2.01b72839.chunk.js.LICENSE.txt": "./static/js/2.01b72839.chunk.js.LICENSE.txt",
+    "static/media/account.30845892.svg": "./static/media/account.30845892.svg",
+    "static/media/add.cd89643f.svg": "./static/media/add.cd89643f.svg",
+    "static/media/Chat.scss": "./static/media/chat.ef93d4d7.svg",
+    "static/media/error.62d23dd4.svg": "./static/media/error.62d23dd4.svg",
+    "static/media/exit.4ba2843a.svg": "./static/media/exit.4ba2843a.svg",
+    "static/media/MessageList.scss": "./static/media/loading.c773ff94.svg",
+    "static/media/search.a88f7755.svg": "./static/media/search.a88f7755.svg",
+    "static/media/send.352beb52.svg": "./static/media/send.352beb52.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e58cb6f.js",
+    "static/js/2.01b72839.chunk.js",
+    "static/css/main.f56bad78.chunk.css",
+    "static/js/main.e85c4fa2.chunk.js"
+  ]
+}

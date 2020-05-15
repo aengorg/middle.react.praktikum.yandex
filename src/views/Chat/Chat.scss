@@ -49,6 +49,8 @@
   }
 
   &__message-search {
+    display: flex;
+    justify-content: center;
     flex-shrink: 0;
     padding: 10px;
     border-bottom: 1px solid var(--nord4);
@@ -62,6 +64,17 @@
     flex-shrink: 0;
     padding: 10px;
     border-top: 1px solid var(--nord4);
+  }
+}
+
+.search {
+  &__icon {
+    margin-right: 5px;
+    fill: var(--nord9);
+  }
+
+  &__input {
+    height: 29px;
   }
 }
 

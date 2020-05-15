@@ -21,4 +21,5 @@ export interface State {
   activeChannelId: TChannelId;
   channels: TChannelsList;
   messages: TMessagesList;
+  searchQuery: string;
 }

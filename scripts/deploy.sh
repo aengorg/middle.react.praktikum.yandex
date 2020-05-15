@@ -8,9 +8,9 @@ git checkout gh-pages;
 
 git merge master;
 
-PUBLIC_URL='/middle.react.praktikum.yandex' npm run build;
+PUBLIC_URL='./' npm run build;
 
-mv build/* ../;
+cp -rf ./build/* ./;
 
 git add -A .;
 

@@ -48,9 +48,7 @@ export class Login extends Component<Props, State> {
   ): Promise<void> => {
     e.preventDefault();
 
-    const { errors } = this.props.localization;
-    const { history, loginUser } = this.props;
-    console.log(this.props);
+    const { localization, history, loginUser } = this.props;
 
     this.resetErrors();
 
@@ -61,12 +59,11 @@ export class Login extends Component<Props, State> {
 
     const loginedUser = await UsersAPI.login(user);
     if (loginedUser) {
-      console.log(loginUser);
-
       loginUser(loginedUser);
+
       history.replace('/chat');
     } else {
-      this.addError(errors.login);
+      this.addError(localization['errors.login']);
     }
   };
 
